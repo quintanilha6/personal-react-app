@@ -97,12 +97,12 @@ const database = {
       value: 70
     },
     {
-      title: "HTML/CSS",
-      value: 57
+      title: "LaTeX",
+      value: 65
     },
     {
-      title: "LaTeX",
-      value: 80
+      title: "HTML/CSS",
+      value: 57
     }
   ],
   portfolios: [
