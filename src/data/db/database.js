@@ -30,12 +30,12 @@ const database = {
   },
   services: [
     {
-      title: "Backend Developtment",
+      title: "Backend Development",
       icon: 'code',
       details: "Traditional web and microservices using REST API practices, security patterns and ORMs."
     },
     {
-      title: "Decentralized aaplications",
+      title: "Decentralized applications",
       icon: 'certificate',
       details: "Smart-contract development and usage for different Blockchain environments."
     },
