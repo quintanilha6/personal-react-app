@@ -14,6 +14,16 @@ function Socialicons(props){
 
   return (
     <ul className={props.bordered ? 'mi-socialicons mi-socialicons-bordered' : 'mi-socialicons'}>
+      {!socialLinks.github ? null : <li>
+        <a rel="noopener noreferrer" target="_blank" href={socialLinks.github}>
+          <LineIcon name="github"/>
+        </a>
+      </li>}
+      {!socialLinks.linkedin ? null : <li>
+        <a rel="noopener noreferrer" target="_blank" href={socialLinks.linkedin}>
+          <LineIcon name="linkedin"/>
+        </a>
+      </li>}
       {!socialLinks.facebook ? null : <li>
         <a rel="noopener noreferrer" target="_blank" href={socialLinks.facebook}>
           <LineIcon name="facebook"/>
@@ -34,21 +44,19 @@ function Socialicons(props){
           <LineIcon name="behance"/>
         </a>
       </li>}
-      {!socialLinks.linkedin ? null : <li>
-        <a rel="noopener noreferrer" target="_blank" href={socialLinks.linkedin}>
-          <LineIcon name="linkedin"/>
-        </a>
-      </li>}
+      
       {!socialLinks.dribbble ? null : <li>
         <a rel="noopener noreferrer" target="_blank" href={socialLinks.dribbble}>
           <LineIcon name="dribbble"/>
         </a>
       </li>}
-      {!socialLinks.github ? null : <li>
-        <a rel="noopener noreferrer" target="_blank" href={socialLinks.github}>
-          <LineIcon name="github"/>
+
+      {!socialLinks.instagram ? null : <li>
+        <a rel="noopener noreferrer" target="_blank" href={socialLinks.instagram}>
+          <LineIcon name="instagram"/>
         </a>
       </li>}
+      
     </ul>
   );
 }

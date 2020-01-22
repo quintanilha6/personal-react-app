@@ -2,28 +2,29 @@ import Mock from "../mock";
 
 const database = {
   information: {
-    name: 'Devid Chester',
+    name: 'João Quintanilha',
     aboutContent: "I am a frontend web developer. I can provide clean code and pixel perfect design. I also make website more & more interactive with web animations.",
-    age: 24,
+    age: 26,
     phone: '',
-    nationality: 'American',
-    language: 'English, French',
-    email: '',
-    address: '121 King Street, Melbourne, Australia',
+    nationality: 'Portuguese',
+    language: 'Portuguese, English, Spanish, French',
+    email: 'jpquintanilha@protonmail.com',
+    address: 'Urb. dos Camarinhos lt 57, Parceiros, Leiria',
     freelanceStatus: 'Available',
     socialLinks: {
-      facebook: 'https://facebook.com',
-      twitter: 'https://twitter.com',
+      facebook: 'https://www.facebook.com/quintanilha.joao.9?ref=bookmarks',
+      twitter: '',
       pinterest: '',
       behance: '',
-      linkedin: '',
+      linkedin: 'https://www.linkedin.com/in/jo%C3%A3o-quintanilha-24486a136/',
       dribbble: '',
-      github: 'https://github.com'
+      github: 'https://github.com/quintanilha6',
+      instagram: 'https://www.instagram.com/quintanilha6/'
     },
     brandImage: '/images/brand-image.jpg',
     aboutImage: '/images/about-image.jpg',
     aboutImageLg: '/images/about-image-lg.jpg',
-    cvfile: '/files/empty.pdf'
+    cvfile: '/files/CV.pdf'
   },
   services: [
     {
@@ -70,28 +71,36 @@ const database = {
   ],
   skills: [
     {
-      title: "HTML5",
-      value: 95
+      title: "Python (Falcon, Django)",
+      value: 89
     },
     {
-      title: "CSS3",
-      value: 90
+      title: "Solidity",
+      value: 82
     },
     {
-      title: "Javascript",
+      title: "Java (Spring)",
+      value: 78
+    },
+    {
+      title: "Javascript (Node, ReactJS)",
+      value: 71
+    },
+    {
+      title: "Docker / Docker-compose",
       value: 70
     },
     {
-      title: "jQuery",
-      value: 85
+      title: "Linux OS (Bash)",
+      value: 70
     },
     {
-      title: "ReactJS",
+      title: "HTML/CSS",
+      value: 57
+    },
+    {
+      title: "LaTeX",
       value: 80
-    },
-    {
-      title: "Photoshop",
-      value: 65
     }
   ],
   portfolios: [
@@ -171,45 +180,31 @@ const database = {
       {
         id: 1,
         year: "2018 - Present",
-        position: "Frontend Web Developer",
-        company: "Abc Company",
-        details: "Lorem ipsum dolor sit amet consectetur, adipisicing elit. Quas, magni mollitia, aspernatur consequatur accusamus vero eum facere exercitationem velit suscipit ipsam placeat libero. Deleniti exercitationem nostrum quasi. Molestiae, vel porro."
-      },
-      {
-        id: 2,
-        year: "2016 - 2018",
-        position: "Frontend Web Developer",
-        company: "CBA Company",
-        details: "Lorem ipsum dolor sit amet consectetur, adipisicing elit. Quas, magni mollitia, aspernatur consequatur accusamus vero eum facere exercitationem velit suscipit ipsam placeat libero. Deleniti exercitationem nostrum quasi. Molestiae, vel porro."
-      },
-      {
-        id: 3,
-        year: "2014 - 1016",
-        position: "UI/UX Designer",
-        company: "Example Company",
+        position: "Backend & Blockchain Developer",
+        company: "Ubiwhere",
         details: "Lorem ipsum dolor sit amet consectetur, adipisicing elit. Quas, magni mollitia, aspernatur consequatur accusamus vero eum facere exercitationem velit suscipit ipsam placeat libero. Deleniti exercitationem nostrum quasi. Molestiae, vel porro."
       }
     ],
     educationExperience: [
       {
         id: 1,
-        year: "2018 - 2019",
-        graduation: "Master of Science",
-        university: "Abc University",
+        year: "2013 - 2019",
+        graduation: "Bachelor & Master of Science",
+        university: "University of Aveiro",
         details: "Lorem ipsum dolor sit amet consectetur, adipisicing elit. Quas, magni mollitia, aspernatur consequatur accusamus vero eum facere exercitationem velit suscipit ipsam placeat libero. Deleniti exercitationem nostrum quasi. Molestiae, vel porro."
       },
       {
         id: 2,
-        year: "2016 - 2018",
-        graduation: "Bachelor of Science",
-        university: "Abc University",
+        year: "2017 - 2018",
+        graduation: "Master of Science - Exchange programme",
+        university: "University of Zagreb",
         details: "Lorem ipsum dolor sit amet consectetur, adipisicing elit. Quas, magni mollitia, aspernatur consequatur accusamus vero eum facere exercitationem velit suscipit ipsam placeat libero. Deleniti exercitationem nostrum quasi. Molestiae, vel porro."
       },
       {
         id: 3,
-        year: "2015 - 2016",
-        graduation: "Higher Schoold Graduation",
-        university: "Abc College",
+        year: "2016 - 2017",
+        graduation: "Bachelor of Science - Exchange programm",
+        university: "University of Silesia",
         details: "Lorem ipsum dolor sit amet consectetur, adipisicing elit. Quas, magni mollitia, aspernatur consequatur accusamus vero eum facere exercitationem velit suscipit ipsam placeat libero. Deleniti exercitationem nostrum quasi. Molestiae, vel porro."
       }
     ]

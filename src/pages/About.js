@@ -90,9 +90,6 @@ function About(){
                   interactive with web animations.
                 </p>
                 <ul>
-                  {!information.name ? null : <li>
-                    <b>Full Name</b> {information.name}
-                  </li>}
                   {!information.age ? null : <li>
                     <b>Age</b> {information.age} Years
                   </li>}
@@ -111,11 +108,8 @@ function About(){
                   {!information.address ? null : <li>
                     <b>Address</b> {information.address}
                   </li>}
-                  {!information.freelanceStatus ? null : <li>
-                    <b>Freelance</b> {information.freelanceStatus}
-                  </li>}
                 </ul>
-                <a href={information.cvfile} className="mi-button">Download CV</a>
+                <a href={information.cvfile} target="_blank" className="mi-button">Download CV</a>
               </div>
             </div>
           </div>
