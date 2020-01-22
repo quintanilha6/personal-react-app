@@ -42,11 +42,7 @@ function Contact(){
       [event.currentTarget.name] : event.currentTarget.value
     })
   }
-  const numberFormatter = (number) =>{
-    const phnNumber = number;
-    return phnNumber;
-  }
-
+  
   const handleAlerts = () => {
     if(error && message){
       return (
@@ -117,7 +113,7 @@ function Contact(){
                     <div className="mi-contact-infoblock-content">
                       <h6>Phone</h6>
                       {phoneNumbers.map(phoneNumber =>(
-                        <p key={phoneNumber}><a href={numberFormatter(phoneNumber)}>{phoneNumber}</a></p>
+                        <p key={phoneNumber}><a href={`tel:${phoneNumber}`}>{phoneNumber}</a></p>
                       ))}
                     </div>
                   </div>

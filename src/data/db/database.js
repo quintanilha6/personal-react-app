@@ -3,13 +3,15 @@ import Mock from "../mock";
 const database = {
   information: {
     name: 'João Quintanilha',
-    aboutContent: "I am a frontend web developer. I can provide clean code and pixel perfect design. I also make website more & more interactive with web animations.",
+    aboutContent: "With a MSc in Computer and Telematics Engineering, I consider myself as a person who is easily integrated on a team, with natural talent to fit and deal with new and unusual situations. I am dynamic, resourceful, proactive and an understanding person who dedicated a vast life-part on knowledge expansion through self-learning. Together with outstanding communication skills, I have a great ability to adapt on multicultural environments with an organizational knowledge and strategic thinking.",
+    miniAboutContent: "I am a Blockchain enthusiast who loves to code and deliver Backend services as well as decentralized applications.",
     age: 26,
     phone: '',
     nationality: 'Portuguese',
     language: 'Portuguese, English, Spanish, French',
     email: 'jpquintanilha@protonmail.com',
     address: 'Urb. dos Camarinhos lt 57, Parceiros, Leiria',
+    phone: "+351 912451500",
     freelanceStatus: 'Available',
     socialLinks: {
       facebook: 'https://www.facebook.com/quintanilha.joao.9?ref=bookmarks',
@@ -28,19 +30,19 @@ const database = {
   },
   services: [
     {
-      title: "Web Design",
-      icon: 'color-pallet',
-      details: "Lorem ipsum dolor sit amet consectetur adipisicing elit. Autem tenetur ratione quod."
-    },
-    {
-      title: "Web Development",
+      title: "Backend Developtment",
       icon: 'code',
-      details: "Lorem ipsum dolor sit amet consectetur adipisicing elit. Autem tenetur ratione quod."
+      details: "Traditional web and microservices using REST API practices, security patterns and ORMs."
     },
     {
-      title: "Mobile Application",
-      icon: 'mobile',
-      details: "Lorem ipsum dolor sit amet consectetur adipisicing elit. Autem tenetur ratione quod."
+      title: "Decentralized aaplications",
+      icon: 'certificate',
+      details: "Smart-contract development and usage for different Blockchain environments."
+    },
+    {
+      title: "Full-stack Development",
+      icon: 'color-pallet', //mobile
+      details: "Develop frontends to consume REST APIs or provide dApps resources for Blockchain interaction."
     }
   ],
   reviews: [
@@ -264,9 +266,9 @@ const database = {
     }
   ],
   contactInfo: {
-    phoneNumbers: ['+012-3456-7891', '+012-3456-7892'],
-    emailAddress: ['admin.sitename@example.com', 'info.sitename@example.com'],
-    address: "121 King Street, Melbourne, Victoria 3000, Australia"
+    phoneNumbers: ['+351 912451500'],
+    emailAddress: ['jpquintanilha@protonmail.com', 'jpquintanilha6@gmail.com'],
+    address: "Urb. dos Camarinhos lt 57, Parceiros, Leiria"
   }
 }
 
