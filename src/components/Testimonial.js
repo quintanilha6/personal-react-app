@@ -1,6 +1,6 @@
 import React from 'react'
 
-function Testimonial(props){
+function Testimonial(props) {
   return (
     <div className="mi-testimonial-slideritem">
       <div className="mi-testimonial">
@@ -12,6 +12,11 @@ function Testimonial(props){
         <div className="mi-testimonial-author">
           <h5>{props.content.author.name}</h5>
           <h6>{props.content.author.designation}</h6>
+          {!props.content.author.role ? null :
+            <h7>
+              {props.content.author.role}
+            </h7>
+          }
         </div>
       </div>
     </div>

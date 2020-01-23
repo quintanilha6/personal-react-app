@@ -48,10 +48,11 @@ const database = {
   reviews: [
     {
       id: 1,
-      content: "review do pedro",
+      content: "I can say that João is surely a key member in every team. He is talkative, easy going, takes a genuine care for people and is at the same time very professional in his way of socializing.",
       author: {
         name: 'Pedro Marques',
-        designation: 'Software Engineer @ CERN'
+        designation: 'Software Engineer @ CERN',
+        role: null
       }
     },
     {
@@ -59,7 +60,8 @@ const database = {
       content: "review dp telmo.",
       author: {
         name: 'Prof. Dr. Telmo Fernandes',
-        designation: 'Professor @ Polytechnical Institute of Leiria'
+        designation: 'Professor @ Polytechnical Institute of Leiria',
+        role: null
       }
     },
     {
@@ -67,7 +69,8 @@ const database = {
       content: "review do prof helder.",
       author: {
         name: 'Prof. Dr. Hélder Gomes',
-        designation: 'Professor @ University of Aveiro'
+        designation: 'Professor @ University of Aveiro',
+        role: 'Master Thesis Coordinator'
       },
     },
     {
@@ -75,7 +78,8 @@ const database = {
       content: ".",
       author: {
         name: 'Prof. Dr. Filipe Correia',
-        designation: 'Professor @ University of Porto'
+        designation: 'Professor @ University of Porto',
+        role: null
       },
     }
   ],
