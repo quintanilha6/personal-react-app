@@ -172,29 +172,35 @@ const database = {
       id: 4,
       title: "Crowdfunding with Ethereum",
       subtitle: "Vote-based crowdfunding system supported by Ethereum Blockchain and smart-contracts",
-      imageUrl: "/images/crowdfundingethereum2.jpg",
+      imageUrl: "/images/crowdfundingethereum.jpg",
       url: 'https://github.com/quintanilha6/ETHEREUM-crowdfunding-project'
     },
     {
-      id: 5,
+      id: 6,
+      title: "Spring boot template initializers",
+      subtitle: "Series of spring boot useful templates to not start from scratch entirely",
+      imageUrl: "/images/ua.jpg",
+      url: 'https://github.com/quintanilha6/spring-boot'
+    },
+    {
+      id: 7,
       title: "Master Thesis",
       subtitle: "Multi-agent loyalty program over Blockchain",
       imageUrl: "/images/ua.jpg",
       url: 'https://github.com/quintanilha6/ETHEREUM-crowdfunding-project'
     },
     {
-      id: 6,
+      id: 8,
       title: "Artificial Intelligence",
       subtitle: "Autonomous agent that learns and profits against casino's Blackjack",
       imageUrl: "/images/aibj.jpg",
       url: 'https://github.com/quintanilha6/artificial_intelligence_blackjack'
     },
     {
-      id: 7,
+      id: 9,
       title: "Bachelor Project",
       subtitle: "Patient managment platform for a post-stroke clinic. Partnership with Rovisco Pais",
-      imageUrl: "/images/portfolio-image-3.jpg",
-      largeImageUrl: ["/images/portfolio-image-3-lg.jpg"],
+      imageUrl: "/images/ua.jpg",
       url: 'https://github.com/quintanilha6/avc_project'
     }
 
