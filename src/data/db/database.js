@@ -206,7 +206,9 @@ const database = {
         year: "2018 - Present",
         position: "Backend & Blockchain Developer",
         company: "Ubiwhere",
-        details: "Lorem ipsum dolor sit amet consectetur, adipisicing elit. Quas, magni mollitia, aspernatur consequatur accusamus vero eum facere exercitationem velit suscipit ipsam placeat libero. Deleniti exercitationem nostrum quasi. Molestiae, vel porro."
+        details: "Responsible for most Blockchain components (from core to high level) \
+        and respective interaction services. Create decentralized architectures for \
+        smart-contract interoperable platforms, and produce RESTful APIs to serve different client application"
       }
     ],
     educationExperience: [
@@ -215,21 +217,21 @@ const database = {
         year: "2013 - 2019",
         graduation: "Bachelor & Master of Science",
         university: "University of Aveiro",
-        details: "Lorem ipsum dolor sit amet consectetur, adipisicing elit. Quas, magni mollitia, aspernatur consequatur accusamus vero eum facere exercitationem velit suscipit ipsam placeat libero. Deleniti exercitationem nostrum quasi. Molestiae, vel porro."
+        details: "Computer and Telematics Engineering"
       },
       {
         id: 2,
         year: "2017 - 2018",
         graduation: "Master of Science - Exchange programme",
         university: "University of Zagreb",
-        details: "Lorem ipsum dolor sit amet consectetur, adipisicing elit. Quas, magni mollitia, aspernatur consequatur accusamus vero eum facere exercitationem velit suscipit ipsam placeat libero. Deleniti exercitationem nostrum quasi. Molestiae, vel porro."
+        details: "Software Engineering and Information Systems"
       },
       {
         id: 3,
         year: "2016 - 2017",
         graduation: "Bachelor of Science - Exchange programm",
         university: "University of Silesia",
-        details: "Lorem ipsum dolor sit amet consectetur, adipisicing elit. Quas, magni mollitia, aspernatur consequatur accusamus vero eum facere exercitationem velit suscipit ipsam placeat libero. Deleniti exercitationem nostrum quasi. Molestiae, vel porro."
+        details: "Information Technologies"
       }
     ]
   },
