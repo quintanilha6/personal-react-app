@@ -154,17 +154,19 @@ const database = {
       id: 2,
       title: "Dyagora",
       subtitle: "Zenithwings @ H2020 Blockchers project.",
-      imageUrl: "/images/portfolio-image-2.jpg",
+      imageUrl: "/images/storywine.jpg",
+      largeImageUrl: [
+        "/images/storywine-lg.png"
+      ],
       url: 'https://zenithwings.com/projects/dyagora-blockchers'
     },
     {
       id: 3,
       title: "My website",
       subtitle: "Personal website with ReactJS.",
-      imageUrl: "/images/portfolio-image-4.jpg",
+      imageUrl: "/images/mywebsite.jpg",
       largeImageUrl: [
-        "/images/portfolio-image-4-lg.jpg",
-        "/images/portfolio-image-4-lg2.jpg"
+        "/images/mywebsite-lg.png"
       ],
       url: 'https://github.com/quintanilha6/personal-react-app'
     },
@@ -177,24 +179,24 @@ const database = {
     },
     {
       id: 6,
-      title: "Spring boot template initializers",
+      title: "Springboot template initializers",
       subtitle: "Series of spring boot useful templates to not start from scratch entirely",
-      imageUrl: "/images/ua.jpg",
+      imageUrl: "/images/springboot.png",
       url: 'https://github.com/quintanilha6/spring-boot'
     },
     {
       id: 7,
-      title: "Master Thesis",
-      subtitle: "Multi-agent loyalty program over Blockchain",
-      imageUrl: "/images/ua.jpg",
-      url: 'https://github.com/quintanilha6/ETHEREUM-crowdfunding-project'
-    },
-    {
-      id: 8,
       title: "Artificial Intelligence",
       subtitle: "Autonomous agent that learns and profits against casino's Blackjack",
       imageUrl: "/images/aibj.jpg",
       url: 'https://github.com/quintanilha6/artificial_intelligence_blackjack'
+    },
+    {
+      id: 8,
+      title: "Master Thesis",
+      subtitle: "Multi-agent loyalty program over Blockchain",
+      imageUrl: "/images/ua.jpg",
+      url: 'https://ria.ua.pt/'
     },
     {
       id: 9,
