@@ -48,27 +48,35 @@ const database = {
   reviews: [
     {
       id: 1,
-      content: "Lorem ipsum dolor, sit amet consectetur adipisicing elit. Expedita impedit nobis tempore quaerat quibusdam, aliquid maxime tempora.",
+      content: "review do pedro",
       author: {
-        name: 'Burdette Turner',
-        designation: 'Web Developer, Abc Company'
+        name: 'Pedro Marques',
+        designation: 'Software Engineer @ CERN'
       }
     },
     {
       id: 2,
-      content: "Lorem ipsum dolor, sit amet consectetur adipisicing elit. Expedita impedit nobis tempore quaerat quibusdam.",
+      content: "review dp telmo.",
       author: {
-        name: 'Susan Yost',
-        designation: 'Client'
+        name: 'Prof. Dr. Telmo Fernandes',
+        designation: 'Professor @ Polytechnical Institute of Leiria'
       }
     },
     {
       id: 3,
-      content: "Lorem ipsum dolor, sit amet consectetur adipisicing elit.",
+      content: "review do prof helder.",
       author: {
-        name: 'Irving Feeney',
-        designation: 'Fiverr Client'
-      }
+        name: 'Prof. Dr. Hélder Gomes',
+        designation: 'Professor @ University of Aveiro'
+      },
+    },
+    {
+      id: 4,
+      content: ".",
+      author: {
+        name: 'Prof. Dr. Filipe Correia',
+        designation: 'Professor @ University of Porto'
+      },
     }
   ],
   skills: [
