@@ -48,25 +48,25 @@ const database = {
   reviews: [
     {
       id: 1,
-      content: "I can say that João is surely a key member in every team. He is talkative, easy going, takes a genuine care for people and is at the same time very professional in his way of socializing.",
+      content: "I can say that João is surely a key member in every team. He is talkative, easy-going, takes genuine care for people and is at the same time very professional in his way of socializing.",
       author: {
-        name: 'Pedro Marques',
+        name: 'Eng. Pedro Marques',
         designation: 'Software Engineer @ CERN',
-        role: null
+        role: ''
       }
     },
     {
       id: 2,
-      content: "review dp telmo.",
+      content: "Demonstrated a proactive and organizational attitude by taking all his available time to foresee possible issues coming from both his job and his Master Thesis.",
       author: {
         name: 'Prof. Dr. Telmo Fernandes',
         designation: 'Professor @ Polytechnical Institute of Leiria',
-        role: null
+        role: ''
       }
     },
     {
       id: 3,
-      content: "review do prof helder.",
+      content: "I was impressed by his pro-activity when addressing existing software, like Blockchain tech: his questions were always backed-up by a careful study of the case, accompanied by solutions proposals.",
       author: {
         name: 'Prof. Dr. Hélder Gomes',
         designation: 'Professor @ University of Aveiro',
@@ -75,11 +75,29 @@ const database = {
     },
     {
       id: 4,
-      content: ".",
+      content: "A very efforted and talented developer, always willing to help his colleagues. João demonstrated huge technological growth while working under my projects and never missed a deadline.",
+      author: {
+        name: 'Eng. Pedro Diogo',
+        designation: 'Project Manager @ Ubiwhere',
+        role: ''
+      },
+    },
+    {
+      id: 5,
+      content: "João's Master Thesis presented an enormous value to the loyalty program's field for its innovative approach and quality KPIs.",
       author: {
         name: 'Prof. Dr. Filipe Correia',
         designation: 'Professor @ University of Porto',
-        role: null
+        role: 'Main jury of Master Thesis defense'
+      },
+    },
+    {
+      id: 6,
+      content: "João is a very optimistic, helpful and skilled developer. He takes all his efforts to organize small events to gather Ubiwhere's team, which proves his genuine interest to keep a healthy social working environment.",
+      author: {
+        name: 'Ana Rodrigues',
+        designation: 'Human Resources @ Ubiwhere',
+        role: 'People and Culture Manager'
       },
     }
   ],
@@ -120,74 +138,68 @@ const database = {
   portfolios: [
     {
       id: 1,
-      title: "T-shirt Mockup",
-      subtitle: "A beautiful t-shirt mockup.",
-      imageUrl: "/images/portfolio-image-1.jpg",
-      largeImageUrl: ["/images/portfolio-image-1-lg.jpg"],
-      url: 'https://dribbble.com'
+      title: "drEVen",
+      subtitle: "Ubiwhere @ H2020 Vicinity project.",
+      imageUrl: "/images/dreven.jpg",
+      largeImageUrl: [
+        "/images/dreven-lg.jpg",
+        "/images/dreven-lg1.jpg",
+        "/images/dreven-lg3.jpg",
+        "/images/dreven-lg2.jpg",
+        "/images/dreven-lg4.jpg"
+      ],
+      url: 'https://vicinity2020.eu/vicinity/content/pilots/dreven/overview'
     },
     {
       id: 2,
-      title: "Coffee Mug",
-      subtitle: "Awesome coffee mug design.",
+      title: "Dyagora",
+      subtitle: "Zenithwings @ H2020 Blockchers project.",
+      imageUrl: "/images/portfolio-image-2.jpg",
+      url: 'https://zenithwings.com/projects/dyagora-blockchers'
+    },
+    {
+      id: 3,
+      title: "My website",
+      subtitle: "Personal website with ReactJS.",
       imageUrl: "/images/portfolio-image-4.jpg",
       largeImageUrl: [
         "/images/portfolio-image-4-lg.jpg",
         "/images/portfolio-image-4-lg2.jpg"
       ],
-      url: 'https://facebook.com'
-    },
-    {
-      id: 3,
-      title: "Tea & Coffee Mug",
-      subtitle: "Beautiful mug with logo.",
-      imageUrl: "/images/portfolio-image-2.jpg",
-      url: 'https://pinterest.com'
+      url: 'https://github.com/quintanilha6/personal-react-app'
     },
     {
       id: 4,
-      title: "Pen Holder",
-      subtitle: "A pen holder with beautiful design.",
+      title: "Crowdfunding with Ethereum",
+      subtitle: "Vote-based crowdfunding system supported by Ethereum Blockchain and smart-contracts",
       imageUrl: "/images/portfolio-image-3.jpg",
       largeImageUrl: ["/images/portfolio-image-3-lg.jpg"],
-      url: '#'
+      url: 'https://github.com/quintanilha6/ETHEREUM-crowdfunding-project'
     },
     {
       id: 5,
-      title: "Mug",
-      subtitle: "Mug with awesome style",
-      imageUrl: "/images/portfolio-image-5.jpg",
-      largeImageUrl: ["/images/portfolio-image-5-lg.jpg"]
+      title: "Master Thesis",
+      subtitle: "Multi-agent loyalty program over Blockchain",
+      imageUrl: "/images/portfolio-image-3.jpg",
+      largeImageUrl: ["/images/portfolio-image-3-lg.jpg"],
+      url: 'https://github.com/quintanilha6/ETHEREUM-crowdfunding-project'
     },
     {
       id: 6,
-      title: "Pendrive",
-      subtitle: "Free pendrive mockup design.",
-      imageUrl: "/images/portfolio-image-6.jpg",
-      largeImageUrl: ["/images/portfolio-image-6-lg.jpg"]
+      title: "Artificial Intelligence",
+      subtitle: "Autonomous agent that learns and profits against casino's Blackjack",
+      imageUrl: "/images/aibj.jpg",
+      url: 'https://github.com/quintanilha6/artificial_intelligence_blackjack'
     },
     {
       id: 7,
-      title: "Beautiful Pendrive",
-      subtitle: "Pendrive with great design & flexible.",
-      imageUrl: "/images/portfolio-image-7.jpg",
-      largeImageUrl: ["/images/portfolio-image-7-lg.jpg"],
-      url: 'https://twitter.com'
-    },
-    {
-      id: 8,
-      title: "Sticker",
-      subtitle: "Clip sticker mockup design.",
-      imageUrl: "/images/portfolio-image-8.jpg",
-      largeImageUrl: ["/images/portfolio-image-8-lg.jpg"]
-    },
-    {
-      id: 9,
-      title: "Packet",
-      subtitle: "Beautiful packet & product design.",
-      imageUrl: "/images/portfolio-image-9.jpg",
-      largeImageUrl: ["/images/portfolio-image-9-lg.jpg"]
+      title: "Bachelor Project",
+      subtitle: "Patient managment platform for a post-stroke clinic. Partnership with Rovisco Pais",
+      imageUrl: "/images/portfolio-image-3.jpg",
+      largeImageUrl: ["/images/portfolio-image-3-lg.jpg"],
+      url: 'https://github.com/quintanilha6/avc_project'
     }
+
   ],
   experience: {
     workingExperience: [
