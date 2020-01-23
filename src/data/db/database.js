@@ -172,16 +172,14 @@ const database = {
       id: 4,
       title: "Crowdfunding with Ethereum",
       subtitle: "Vote-based crowdfunding system supported by Ethereum Blockchain and smart-contracts",
-      imageUrl: "/images/portfolio-image-3.jpg",
-      largeImageUrl: ["/images/portfolio-image-3-lg.jpg"],
+      imageUrl: "/images/crowdfundingethereum2.jpg",
       url: 'https://github.com/quintanilha6/ETHEREUM-crowdfunding-project'
     },
     {
       id: 5,
       title: "Master Thesis",
       subtitle: "Multi-agent loyalty program over Blockchain",
-      imageUrl: "/images/portfolio-image-3.jpg",
-      largeImageUrl: ["/images/portfolio-image-3-lg.jpg"],
+      imageUrl: "/images/ua.jpg",
       url: 'https://github.com/quintanilha6/ETHEREUM-crowdfunding-project'
     },
     {
