@@ -367,29 +367,29 @@ const database = {
     }
     ,
   },
-  volunteering: [
-    {
-      id: 1,
+  volunteering: {
+    esn: {
       year: "111",
       institution: "Erasmus student network",
       details: "Texto a detalhar",
-      imageUrl: "meter aqui path para img"
+      location: "University of Aveiro",
+      imageUrl: "/images/esn.jpg"
     },
-    {
-      id: 2,
+    bancoAlimentar: {
       year: "111",
       institution: "Banco Alimentar",
       details: "Texto a detalhar",
-      imageUrl: "meter aqui path para img"
+      location: "Parceiros, Leiria",
+      imageUrl: "/images/ba.jpg"
     },
-    {
-      id: 3,
+    waiter: {
       year: "111",
-      institution: "waiter",
+      institution: "Adega do Luís",
       details: "Texto a detalhar",
-      imageUrl: "meter aqui path para img"
+      location: "Porto de Mós, Leiria",
+      imageUrl: "/images/adegadoluis.jpeg"
     }
-  ],
+  },
 
   contactInfo: {
     phoneNumbers: ['+351 912451500'],
@@ -436,5 +436,10 @@ Mock.onGet("/api/contactinfo").reply(config => {
 
 Mock.onGet("/api/hobbies").reply(config => {
   const response = database.hobbies;
+  return [200, response];
+});
+
+Mock.onGet("/api/volunteering").reply(config => {
+  const response = database.volunteering;
   return [200, response];
 });

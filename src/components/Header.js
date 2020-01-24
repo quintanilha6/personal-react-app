@@ -34,6 +34,7 @@ function Header() {
                     <li><NavLink to="/about"><span>About</span></NavLink></li>
                     <li><NavLink to="/resume"><span>Resume</span></NavLink></li>
                     <li><NavLink to="/portfolios"><span>Portfolios</span></NavLink></li>
+                    <li><NavLink to="/volunteering"><span>Volunteering</span></NavLink></li>
                     <li><NavLink to="/hobbies"><span>Hobbies</span></NavLink></li>
                     <li><NavLink to="/contact"><span>Contact</span></NavLink></li>
                 </ul>

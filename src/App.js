@@ -7,6 +7,7 @@ import Resumes from "./pages/Resumes";
 import Portfolios from "./pages/Portfolios";
 import Contact from "./pages/Contact";
 import Hobbies from "./pages/Hobbies";
+import Volunteering from "./pages/Volunteering";
 
 function App() {
   return (
@@ -16,6 +17,7 @@ function App() {
         <Route path="/about" component={About} />
         <Route path="/resume" component={Resumes} />
         <Route path="/portfolios" component={Portfolios} />
+        <Route path="/volunteering" component={Volunteering} />
         <Route path="/hobbies" component={Hobbies} />
         <Route path="/contact" component={Contact} />
       </Switch>

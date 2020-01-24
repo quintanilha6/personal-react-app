@@ -7,7 +7,6 @@ import Layout from "../components/Layout";
 
 function Hobbies() {
     const [handball, setHandball] = useState([]);
-    const [surflongboard, setSurflongboard] = useState([]);
     const [marathons, setMarathons] = useState([]);
     const [music, setMusic] = useState([]);
     const [hikes, setHikes] = useState([]);
@@ -18,7 +17,6 @@ function Hobbies() {
         axios.get('/api/hobbies')
             .then(response => {
                 setHandball(response.data.sports.handball)
-                setSurflongboard(response.data.sports.surflongboard)
                 setMarathons(response.data.sports.marathons)
                 setHikes(response.data.sports.hikes)
                 setMusic(response.data.music)
