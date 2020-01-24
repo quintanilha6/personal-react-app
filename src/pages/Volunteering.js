@@ -13,8 +13,8 @@ function Volunteering() {
         axios.get('/api/volunteering')
             .then(response => {
                 setEsn(response.data.esn)
-                setBa(response.data.esn)
-                setWaiter(response.data.esn)
+                setBa(response.data.bancoAlimentar)
+                setWaiter(response.data.waiter)
             })
     }, [])
 
@@ -36,11 +36,8 @@ function Volunteering() {
                                     {!esn.year ? null : <li>
                                         <b>Year</b> {esn.year}
                                     </li>}
-                                    {!esn.teams ? null : <li>
-                                        <b>Teams</b> {esn.teams}
-                                    </li>}
-                                    {!esn.titles ? null : <li>
-                                        <b>Titles</b> {esn.titles}
+                                    {!esn.location ? null : <li>
+                                        <b>Location</b> {esn.location}
                                     </li>}
                                 </ul>
                             </div>
@@ -56,6 +53,66 @@ function Volunteering() {
                     </div>
 
                     <div className="mt-30"></div>
+
+                    <div className="row">
+                        <div className="col-lg-6">
+                            <div className="mi-about-content">
+                                <h3>
+                                    <span className="color-theme">Banco Alimentar</span>
+                                </h3>
+                                <p>
+                                    {ba.details}
+                                </p>
+                                <ul>
+                                    {!ba.year ? null : <li>
+                                        <b>Year</b> {ba.year}
+                                    </li>}
+                                    {!ba.location ? null : <li>
+                                        <b>Location</b> {ba.location}
+                                    </li>}
+                                </ul>
+                            </div>
+                        </div>
+                        <div className="col-lg-6">
+                            <div className="mi-about-image">
+                                <img
+                                    src={ba.imageUrl}
+                                    alt="about"
+                                />
+                            </div>
+                        </div>
+                    </div>
+
+                    <div className="mt-30"></div>
+
+                    <div className="row">
+                        <div className="col-lg-6">
+                            <div className="mi-about-content">
+                                <h3>
+                                    <span className="color-theme">Adega do Luís Restaurant</span>
+                                </h3>
+                                <p>
+                                    {waiter.details}
+                                </p>
+                                <ul>
+                                    {!waiter.year ? null : <li>
+                                        <b>Year</b> {waiter.year}
+                                    </li>}
+                                    {!waiter.location ? null : <li>
+                                        <b>Location</b> {waiter.location}
+                                    </li>}
+                                </ul>
+                            </div>
+                        </div>
+                        <div className="col-lg-6">
+                            <div className="mi-about-image">
+                                <img
+                                    src={waiter.imageUrl}
+                                    alt="about"
+                                />
+                            </div>
+                        </div>
+                    </div>
 
 
                 </div>
