@@ -243,22 +243,36 @@ const database = {
       }
     ],
     certificates: [
+
       {
-        id:1,
-        year: "2018",
-        certificateName: "solidity",
+        id: 1,
+        year: "2019",
+        certificate: "Basic Life Support",
+        issuingEntity: "UNAVE - Professional Training Association"
       },
       {
-        id:2,
+        id: 2,
         year: "2019",
-        certificateName: "Basic Life Support"
+        certificate: "Springboot Development",
+        issuingEntity: "Udemy - Online Learning Platform"
       },
       {
         id: 3,
-        year: "2016 - 2017",
-        graduation: "Bachelor of Science - Exchange programm",
-        university: "University of Silesia",
-        details: "Information Technologies"
+        year: "2018",
+        certificate: "Blockchain Development on Hyperledger Fabric using Composer",
+        issuingEntity: "Udemy - Online Learning Platform"
+      },
+      {
+        id: 4,
+        year: "2017",
+        certificate: "Ethereum and Solidity: The complete Developer’s Guide",
+        issuingEntity: "Udemy - Online Learning Platform"
+      },
+      {
+        id: 5,
+        year: "2015",
+        certificate: "First Certificate in English",
+        issuingEntity: "Royal School of Languages - Private School of Languages and Translations"
       }
     ]
   },
