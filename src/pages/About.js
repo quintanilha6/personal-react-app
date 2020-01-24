@@ -8,7 +8,7 @@ import Layout from "../components/Layout";
 import Service from '../components/Service';
 import Testimonial from '../components/Testimonial';
 
-function About(){
+function About() {
   const [toggler, setToggler] = useState(false);
   const [information, setInformation] = useState("");
   const [services, setServices] = useState([]);
@@ -42,17 +42,17 @@ function About(){
     })
   }
 
-  useEffect(() =>{
+  useEffect(() => {
     axios.get('/api/information')
-      .then(response =>{
+      .then(response => {
         setInformation(response.data)
       })
     axios.get('/api/services')
-      .then(response =>{
+      .then(response => {
         setServices(response.data)
       })
     axios.get('/api/reviews')
-      .then(response =>{
+      .then(response => {
         setReviews(response.data)
       })
   }, [])
@@ -120,7 +120,7 @@ function About(){
             <div className="row mt-30-reverse">
               {services.map(service => (
                 <div className="col-lg-4 col-md-6 col-12 mt-30" key={service.title}>
-                  <Service content={service}/>
+                  <Service content={service} />
                 </div>
               ))}
             </div>
@@ -133,8 +133,8 @@ function About(){
           <div className="row justify-content-center">
             <div className="col-12">
               <Slider className="mi-testimonial-slider" {...sliderSettings}>
-                {reviews.map(review =>(
-                  <Testimonial key={review.id} content={review}/>
+                {reviews.map(review => (
+                  <Testimonial key={review.id} content={review} />
                 ))}
               </Slider>
             </div>

@@ -216,7 +216,7 @@ const database = {
         company: "Ubiwhere",
         details: "Responsible for most Blockchain components (from core to high level) \
         and respective interaction services. Create decentralized architectures for \
-        smart-contract interoperable platforms, and produce RESTful APIs to serve different client application"
+        smart-contract interoperable platforms, and produce RESTful APIs to serve different client applications"
       }
     ],
     educationExperience: [
@@ -276,60 +276,86 @@ const database = {
       }
     ]
   },
-  blogs: [
+  hobbies: {
+    sports: {
+      handball: {
+        year: "1998-Current",
+        details: "Handball has been part of my life for more than two decades. \
+        It helped me develop my social skills, team work and the ability to work under pressure.\
+        Because of it, I made friends for life and had the opportunity to play with and against \
+        European and Portuguese first class teams.",
+        teams: ["Juve Lis, ", "São Bernardo, ", "PPD Zagreb, ", "University of Aveiro"],
+        titles: ["Nacional University Champion, ",
+          "8º Place European Championship, ",
+          "2x Runner-up of Nacional University Champion, ",
+          "Final 4 Junior Championship of Portuguese First Division, ",
+          "Final 4 Main Championship of Portuguese Second Division"
+        ],
+        imageUrl: "/images/1place.jpg"
+      },
+      surflongboard: {
+        year: "2012-Current",
+        details: "",
+        imageUrl: ""
+      },
+      marathons: {
+        year: "2017-Current",
+        details: "some details",
+        competitions: [
+          "Geneva Harmony Marathon, ",
+          "EDP Lisbon Marathon, ",
+          "Aveiro Half Marathon, ",
+          "Ovar Half Marathon",
+        ],
+        imageUrl: "/images/marathon.jpg"
+      },
+      hikes: {
+        year: "2005-Current",
+        details: "some detail",
+        hikes: ["nz"],
+        imageUrl: "/images/hike.jpg"
+      }
+    },
+    trips: [
+      {
+        id: 1,
+        year: "111",
+        country: "iceland",
+        details: "Texto a detalhar",
+        imageUrl: "meter aqui path para img",
+        videoUrl: "url para video"
+      }
+    ],
+    music: [
+      {
+
+      }
+    ],
+  },
+  volunteering: [
     {
       id: 1,
-      title: "React new version is coming!",
-      imageUrl: "/images/blog-image-1.jpg",
-      content: "ReactJS is the most popular javascript framework now a days. Now it has comes with more and more new features. There is something called hooks, which has a great flavour. ReactJS is the most popular javascript framework now a days. Now it has comes with more and more new features. There is something called hooks, which has a great flavour. ReactJS is the most popular javascript framework now a days. Now it has comes with more and more new features. There is something called hooks, which has a great flavour. ReactJS is the most popular javascript framework now a days. Now it has comes with more and more new features. There is something called hooks, which has a great flavour. ReactJS is the most popular javascript framework now a days. Now it has comes with more and more new features. There is something called hooks, which has a great flavour. ReactJS is the most popular javascript framework now a days. Now it has comes with more and more new features. There is something called hooks, which has a great flavour. ReactJS is the most popular javascript framework now a days. Now it has comes with more and more new features. There is something called hooks, which has a great flavour. ReactJS is the most popular javascript framework now a days. Now it has comes with more and more new features. There is something called hooks, which has a great flavour.",
-      createTime: "03 December 2019"
+      year: "111",
+      institution: "Erasmus student network",
+      details: "Texto a detalhar",
+      imageUrl: "meter aqui path para img"
     },
     {
       id: 2,
-      title: "More about react hooks",
-      content: "ReactJS is the most popular javascript framework now a days. Now it has comes with more and more new features. There is something called hooks, which has a great flavour. ReactJS is the most popular javascript framework now a days. Now it has comes with more and more new features. There is something called hooks, which has a great flavour. ReactJS is the most popular javascript framework now a days. Now it has comes with more and more new features. There is something called hooks, which has a great flavour. ReactJS is the most popular javascript framework now a days. Now it has comes with more and more new features. There is something called hooks, which has a great flavour. ReactJS is the most popular javascript framework now a days. Now it has comes with more and more new features. There is something called hooks, which has a great flavour. ReactJS is the most popular javascript framework now a days. Now it has comes with more and more new features. There is something called hooks, which has a great flavour. ReactJS is the most popular javascript framework now a days. Now it has comes with more and more new features. There is something called hooks, which has a great flavour. ReactJS is the most popular javascript framework now a days. Now it has comes with more and more new features. There is something called hooks, which has a great flavour.",
-      createTime: "04 December 2019"
+      year: "111",
+      institution: "Banco Alimentar",
+      details: "Texto a detalhar",
+      imageUrl: "meter aqui path para img"
     },
     {
       id: 3,
-      title: "Next generation javascript learning source",
-      content: "ReactJS is the most popular javascript framework now a days. Now it has comes with more and more new features. There is something called hooks, which has a great flavour. ReactJS is the most popular javascript framework now a days. Now it has comes with more and more new features. There is something called hooks, which has a great flavour. ReactJS is the most popular javascript framework now a days. Now it has comes with more and more new features. There is something called hooks, which has a great flavour. ReactJS is the most popular javascript framework now a days. Now it has comes with more and more new features. There is something called hooks, which has a great flavour. ReactJS is the most popular javascript framework now a days. Now it has comes with more and more new features. There is something called hooks, which has a great flavour. ReactJS is the most popular javascript framework now a days. Now it has comes with more and more new features. There is something called hooks, which has a great flavour. ReactJS is the most popular javascript framework now a days. Now it has comes with more and more new features. There is something called hooks, which has a great flavour. ReactJS is the most popular javascript framework now a days. Now it has comes with more and more new features. There is something called hooks, which has a great flavour.",
-      createTime: "05 December 2019"
-    },
-    {
-      id: 4,
-      title: "Free tutorial downloading link.",
-      imageUrl: "/images/blog-image-2.jpg",
-      content: "ReactJS is the most popular javascript framework now a days. Now it has comes with more and more new features. There is something called hooks, which has a great flavour. ReactJS is the most popular javascript framework now a days. Now it has comes with more and more new features. There is something called hooks, which has a great flavour. ReactJS is the most popular javascript framework now a days. Now it has comes with more and more new features. There is something called hooks, which has a great flavour. ReactJS is the most popular javascript framework now a days. Now it has comes with more and more new features. There is something called hooks, which has a great flavour. ReactJS is the most popular javascript framework now a days. Now it has comes with more and more new features. There is something called hooks, which has a great flavour. ReactJS is the most popular javascript framework now a days. Now it has comes with more and more new features. There is something called hooks, which has a great flavour. ReactJS is the most popular javascript framework now a days. Now it has comes with more and more new features. There is something called hooks, which has a great flavour. ReactJS is the most popular javascript framework now a days. Now it has comes with more and more new features. There is something called hooks, which has a great flavour.",
-      createTime: "06 December 2019"
-    },
-    {
-      id: 5,
-      title: "Get 2500 free mockup for design.",
-      youtubeUrl: "TKnufs85hXk",
-      content: "ReactJS is the most popular javascript framework now a days. Now it has comes with more and more new features. There is something called hooks, which has a great flavour. ReactJS is the most popular javascript framework now a days. Now it has comes with more and more new features. There is something called hooks, which has a great flavour. ReactJS is the most popular javascript framework now a days. Now it has comes with more and more new features. There is something called hooks, which has a great flavour. ReactJS is the most popular javascript framework now a days. Now it has comes with more and more new features. There is something called hooks, which has a great flavour. ReactJS is the most popular javascript framework now a days. Now it has comes with more and more new features. There is something called hooks, which has a great flavour. ReactJS is the most popular javascript framework now a days. Now it has comes with more and more new features. There is something called hooks, which has a great flavour. ReactJS is the most popular javascript framework now a days. Now it has comes with more and more new features. There is something called hooks, which has a great flavour. ReactJS is the most popular javascript framework now a days. Now it has comes with more and more new features. There is something called hooks, which has a great flavour.",
-      createTime: "08 December 2019"
-    },
-    {
-      id: 6,
-      title: "React vs Vue vs Angular, what is best?",
-      vimeoUrl: "23534361",
-      content: "ReactJS is the most popular javascript framework now a days. Now it has comes with more and more new features. There is something called hooks, which has a great flavour. ReactJS is the most popular javascript framework now a days. Now it has comes with more and more new features. There is something called hooks, which has a great flavour. ReactJS is the most popular javascript framework now a days. Now it has comes with more and more new features. There is something called hooks, which has a great flavour. ReactJS is the most popular javascript framework now a days. Now it has comes with more and more new features. There is something called hooks, which has a great flavour. ReactJS is the most popular javascript framework now a days. Now it has comes with more and more new features. There is something called hooks, which has a great flavour. ReactJS is the most popular javascript framework now a days. Now it has comes with more and more new features. There is something called hooks, which has a great flavour. ReactJS is the most popular javascript framework now a days. Now it has comes with more and more new features. There is something called hooks, which has a great flavour. ReactJS is the most popular javascript framework now a days. Now it has comes with more and more new features. There is something called hooks, which has a great flavour.",
-      createTime: "10 December 2019"
-    },
-    {
-      id: 7,
-      title: "Web design typography & spacing.",
-      content: "ReactJS is the most popular javascript framework now a days. Now it has comes with more and more new features. There is something called hooks, which has a great flavour. ReactJS is the most popular javascript framework now a days. Now it has comes with more and more new features. There is something called hooks, which has a great flavour. ReactJS is the most popular javascript framework now a days. Now it has comes with more and more new features. There is something called hooks, which has a great flavour. ReactJS is the most popular javascript framework now a days. Now it has comes with more and more new features. There is something called hooks, which has a great flavour. ReactJS is the most popular javascript framework now a days. Now it has comes with more and more new features. There is something called hooks, which has a great flavour. ReactJS is the most popular javascript framework now a days. Now it has comes with more and more new features. There is something called hooks, which has a great flavour. ReactJS is the most popular javascript framework now a days. Now it has comes with more and more new features. There is something called hooks, which has a great flavour. ReactJS is the most popular javascript framework now a days. Now it has comes with more and more new features. There is something called hooks, which has a great flavour.",
-      createTime: "03 December 2019"
-    },
-    {
-      id: 8,
-      title: "React new version is coming with a great features.",
-      content: "ReactJS is the most popular javascript framework now a days. Now it has comes with more and more new features. There is something called hooks, which has a great flavour. ReactJS is the most popular javascript framework now a days. Now it has comes with more and more new features. There is something called hooks, which has a great flavour. ReactJS is the most popular javascript framework now a days. Now it has comes with more and more new features. There is something called hooks, which has a great flavour. ReactJS is the most popular javascript framework now a days. Now it has comes with more and more new features. There is something called hooks, which has a great flavour. ReactJS is the most popular javascript framework now a days. Now it has comes with more and more new features. There is something called hooks, which has a great flavour. ReactJS is the most popular javascript framework now a days. Now it has comes with more and more new features. There is something called hooks, which has a great flavour. ReactJS is the most popular javascript framework now a days. Now it has comes with more and more new features. There is something called hooks, which has a great flavour. ReactJS is the most popular javascript framework now a days. Now it has comes with more and more new features. There is something called hooks, which has a great flavour.",
-      createTime: "03 December 2019"
+      year: "111",
+      institution: "waiter",
+      details: "Texto a detalhar",
+      imageUrl: "meter aqui path para img"
     }
   ],
+
   contactInfo: {
     phoneNumbers: ['+351 912451500'],
     emailAddress: ['jpquintanilha@protonmail.com', 'jpquintanilha6@gmail.com'],
@@ -370,5 +396,10 @@ Mock.onGet("/api/experience").reply(config => {
 
 Mock.onGet("/api/contactinfo").reply(config => {
   const response = database.contactInfo;
+  return [200, response];
+});
+
+Mock.onGet("/api/hobbies").reply(config => {
+  const response = database.hobbies;
   return [200, response];
 });

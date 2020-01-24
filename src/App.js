@@ -6,6 +6,7 @@ import About from "./pages/About";
 import Resumes from "./pages/Resumes";
 import Portfolios from "./pages/Portfolios";
 import Contact from "./pages/Contact";
+import Hobbies from "./pages/Hobbies";
 
 function App() {
   return (
@@ -15,6 +16,7 @@ function App() {
         <Route path="/about" component={About} />
         <Route path="/resume" component={Resumes} />
         <Route path="/portfolios" component={Portfolios} />
+        <Route path="/hobbies" component={Hobbies} />
         <Route path="/contact" component={Contact} />
       </Switch>
     </BrowserRouter>

@@ -13,9 +13,9 @@ function Testimonial(props) {
           <h5>{props.content.author.name}</h5>
           <h6>{props.content.author.designation}</h6>
           {!props.content.author.role ? null :
-            <h7>
+            <h6>
               {props.content.author.role}
-            </h7>
+            </h6>
           }
         </div>
       </div>
