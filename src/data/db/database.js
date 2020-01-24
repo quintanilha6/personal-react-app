@@ -265,7 +265,7 @@ const database = {
       {
         id: 4,
         year: "2017",
-        certificate: "Ethereum and Solidity: The complete Developer’s Guide",
+        certificate: "Ethereum and Solidity: Developer’s Guide",
         issuingEntity: "Udemy - Online Learning Platform"
       },
       {
