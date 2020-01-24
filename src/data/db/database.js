@@ -279,7 +279,7 @@ const database = {
   hobbies: {
     sports: {
       handball: {
-        year: "1998-Current",
+        year: "1998 - Current",
         details: "Handball has been part of my life for more than two decades. \
         It helped me develop my social skills, team work and the ability to work under pressure.\
         Because of it, I made friends for life and had the opportunity to play with and against \
@@ -294,12 +294,12 @@ const database = {
         imageUrl: "/images/1place.jpg"
       },
       surflongboard: {
-        year: "2012-Current",
+        year: "2012- Current",
         details: "",
         imageUrl: ""
       },
       marathons: {
-        year: "2017-Current",
+        year: "2017 - Current",
         details: "some details",
         competitions: [
           "Geneva Harmony Marathon, ",
@@ -310,27 +310,62 @@ const database = {
         imageUrl: "/images/marathon.jpg"
       },
       hikes: {
-        year: "2005-Current",
+        year: "2005 - Current",
         details: "some detail",
         hikes: ["nz"],
         imageUrl: "/images/hike.jpg"
       }
     },
-    trips: [
-      {
-        id: 1,
-        year: "111",
-        country: "iceland",
-        details: "Texto a detalhar",
-        imageUrl: "meter aqui path para img",
-        videoUrl: "url para video"
-      }
-    ],
-    music: [
-      {
-
-      }
-    ],
+    trips:
+    {
+      year: "2014 - Current",
+      visitedContries: [
+        "Austria, ",
+        "Belgium, ",
+        "Bosnia and Herzegovina, ",
+        "China, ",
+        "Croatia, ",
+        "Czech Republic, ",
+        "Denmark, ",
+        "Estonia, ",
+        "Finland, ",
+        "France, ",
+        "Germany, ",
+        "Hong Kong, ",
+        "Hungary, ",
+        "Iceland, ",
+        "Ireland, ",
+        "Italy, ",
+        "Macao, ",
+        "Monaco, ",
+        "Netherlands, ",
+        "New Zealand",
+        "Norway, ",
+        "Poland, ",
+        "Portugal, ",
+        "Slovakia, ",
+        "Slovenia, ",
+        "Spain, ",
+        "Sweden, ",
+        "Switzerland, ",
+        "Ukraine, ",
+        "United Kingdom"
+      ],
+      details: "Texto a detalhar",
+      imageUrl: "/images/travel.jpg",
+      videoUrl: "url para video"
+    },
+    music:
+    {
+      year: "2005 - Current",
+      details: "some detail",
+      instruments: [
+        "Guitar, ",
+        "Ukulele, ",
+        "Piano"],
+      imageUrl: "/images/music.jpg"
+    }
+    ,
   },
   volunteering: [
     {

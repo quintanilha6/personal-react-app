@@ -127,14 +127,70 @@ function Hobbies() {
                         </div>
                     </div>
 
-
                     <div className="mt-30"></div>
                     <Music title="Music" />
+                    <div className="row">
+                        <div className="col-lg-6">
+                            <div className="mi-about-content">
+                                <h3>
+                                    <span className="color-theme">Music</span>
+                                </h3>
+                                <p>
+                                    {music.details}
+                                </p>
+                                <ul>
+                                    {!music.year ? null : <li>
+                                        <b>Year</b> {music.year}
+                                    </li>}
+                                    {!music.instruments ? null : <li>
+                                        <b>Instruments</b> {music.instruments}
+                                    </li>}
+                                </ul>
+                            </div>
+                        </div>
+                        <div className="col-lg-6">
+                            <div className="mi-about-image">
+                                <img
+                                    src={music.imageUrl}
+                                    alt="about"
+                                />
+                            </div>
+                        </div>
+                    </div>
 
                     <div className="mt-30"></div>
                     <Traveling title="Travel" />
+                    <div className="row">
+                        <div className="col-lg-6">
+                            <div className="mi-about-content">
+                                <h3>
+                                    <span className="color-theme">Travel</span>
+                                </h3>
+                                <p>
+                                    {traveling.details}
+                                </p>
+                                <ul>
+                                    {!traveling.year ? null : <li>
+                                        <b>Year</b> {traveling.year}
+                                    </li>}
+                                    {!traveling.visitedContries ? null : <li>
+                                        <b>Countries</b> {traveling.visitedContries}
+                                    </li>}
+                                </ul>
+                            </div>
+                        </div>
+                        <div className="col-lg-6">
+                            <div className="mi-about-image">
+                                <img
+                                    src={traveling.imageUrl}
+                                    alt="about"
+                                />
+                            </div>
+                        </div>
+                    </div>
                 </div>
             </div>
+            <div className="mt-30"></div>
         </Layout>
     );
 }
