@@ -241,6 +241,25 @@ const database = {
         university: "University of Silesia",
         details: "Information Technologies"
       }
+    ],
+    certificates: [
+      {
+        id:1,
+        year: "2018",
+        certificateName: "solidity",
+      },
+      {
+        id:2,
+        year: "2019",
+        certificateName: "Basic Life Support"
+      },
+      {
+        id: 3,
+        year: "2016 - 2017",
+        graduation: "Bachelor of Science - Exchange programm",
+        university: "University of Silesia",
+        details: "Information Technologies"
+      }
     ]
   },
   blogs: [

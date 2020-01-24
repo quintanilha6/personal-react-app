@@ -11,6 +11,7 @@ function Resumes(){
   const [skills, setSkills] = useState([]);
   const [workingExperience, setWorkingExperience] = useState([]);
   const [educationExperience, setEducationExperience] = useState([]);
+  const [certificates, setCertificates] = useState([]);
 
   useEffect(() =>{
     axios.get('/api/skills')
@@ -21,6 +22,7 @@ function Resumes(){
       .then(response =>{
         setWorkingExperience(response.data.workingExperience);
         setEducationExperience(response.data.educationExperience);
+        setCertificates(response.data.certificates);
       })
   }, [])
 
@@ -54,6 +56,13 @@ function Resumes(){
           <div className="mi-resume-wrapper">
             {educationExperience.map(educatonExp => (
               <Resume key={educatonExp.id} resumeData={educatonExp}/>
+            ))}
+          </div>
+          <div className="mt-30"></div>
+          <Smalltitle title="Certificates" icon="certificate" />
+          <div className="mi-resume-wrapper">
+            {certificates.map(cert => (
+              <Resume key={cert.id} resumeData={cert}/>
             ))}
           </div>
         </div>

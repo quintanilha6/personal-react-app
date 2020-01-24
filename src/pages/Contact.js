@@ -75,7 +75,10 @@ function Contact(){
       <div className="mi-contact-area mi-section mi-padding-top mi-padding-bottom">
         <div className="container">
           <Sectiontitle title="Contact Me"/>
+          
           <div className="row">
+            {/*
+            Form to submit email
             <div className="col-lg-6">
               <div className="mi-contact-formwrapper">
                 <h4>Get In Touch</h4>
@@ -102,7 +105,7 @@ function Contact(){
                 </form>
                 {handleAlerts()}
               </div>
-            </div>
+            </div>*/}
             <div className="col-lg-6">
               <div className="mi-contact-info">
                 {!phoneNumbers ? null : (
