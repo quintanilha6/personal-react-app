@@ -3,15 +3,14 @@ import Mock from "../mock";
 const database = {
   information: {
     name: 'João Quintanilha',
-    aboutContent: "With a MSc in Computer and Telematics Engineering, I consider myself as a person who is easily integrated on a team, with natural talent to fit and deal with new and unusual situations. I am dynamic, resourceful, proactive and an understanding person who dedicated a vast life-part on knowledge expansion through self-learning. Together with outstanding communication skills, I have a great ability to adapt on multicultural environments with an organizational knowledge and strategic thinking.",
+    aboutContent: "With an MSc in Computer and Telematics Engineering, I consider myself as a person who is easily integrated on a team, with a natural talent to fit and deal with new and unusual situations. I am dynamic, resourceful, proactive and an understanding person who dedicated a vast life-part on knowledge expansion through self-learning. Together with outstanding communication skills, I have a great ability to adapt to multicultural environments with organizational knowledge and strategic thinking.",
     miniAboutContent: "I am a Blockchain enthusiast who loves to code and deliver Backend services as well as decentralized applications.",
     age: 26,
-    phone: '',
     nationality: 'Portuguese',
     language: 'Portuguese, English, Spanish, French',
     email: 'jpquintanilha@protonmail.com',
     address: 'Urb. dos Camarinhos lt 57, Parceiros, Leiria',
-    phone: "+351 912451500",
+    phone: '+351 912451500',
     freelanceStatus: 'Available',
     socialLinks: {
       facebook: 'https://www.facebook.com/quintanilha.joao.9?ref=bookmarks',
@@ -214,9 +213,7 @@ const database = {
         year: "2018 - Present",
         position: "Backend & Blockchain Developer",
         company: "Ubiwhere",
-        details: "Responsible for most Blockchain components (from core to high level) \
-        and respective interaction services. Create decentralized architectures for \
-        smart-contract interoperable platforms, and produce RESTful APIs to serve different client applications"
+        details: "Responsible for most Blockchain components (from core to high level) and respective interaction services. Create decentralized architectures for smart-contract interoperable platforms, and produce RESTful APIs to serve different client applications"
       }
     ],
     educationExperience: [
@@ -280,10 +277,7 @@ const database = {
     sports: {
       handball: {
         year: "1998 - Current",
-        details: "Handball has been part of my life for more than two decades. \
-        It helped me develop my social skills, team work and the ability to work under pressure.\
-        Because of it, I made friends for life and had the opportunity to play with and against \
-        European and Portuguese first class teams.",
+        details: "Handball has been part of my life for more than two decades. It helped me develop my social skills, team work and the ability to work under pressure. Because of it, I made friends for life and had the opportunity to play with and against European and Portuguese first class teams.",
         teams: ["Juve Lis, ", "São Bernardo, ", "PPD Zagreb, ", "University of Aveiro"],
         titles: ["Nacional University Champion, ",
           "8º Place European Championship, ",
@@ -339,7 +333,7 @@ const database = {
         "Macao, ",
         "Monaco, ",
         "Netherlands, ",
-        "New Zealand",
+        "New Zealand, ",
         "Norway, ",
         "Poland, ",
         "Portugal, ",

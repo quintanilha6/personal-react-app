@@ -130,9 +130,6 @@ function Hobbies() {
                     <div className="row">
                         <div className="col-lg-6">
                             <div className="mi-about-content">
-                                <h3>
-                                    <span className="color-theme">Music</span>
-                                </h3>
                                 <p>
                                     {music.details}
                                 </p>
@@ -161,9 +158,6 @@ function Hobbies() {
                     <div className="row">
                         <div className="col-lg-6">
                             <div className="mi-about-content">
-                                <h3>
-                                    <span className="color-theme">Travel</span>
-                                </h3>
                                 <p>
                                     {traveling.details}
                                 </p>

@@ -107,7 +107,7 @@ function About() {
                     <b>Address</b> {information.address}
                   </li>}
                 </ul>
-                <a href={information.cvfile} target="_blank" className="mi-button">Download CV</a>
+                <a href={information.cvfile} target="_blank" rel="noopener noreferrer" className="mi-button">Download CV</a>
               </div>
             </div>
           </div>
