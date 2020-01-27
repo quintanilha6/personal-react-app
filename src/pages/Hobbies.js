@@ -9,7 +9,6 @@ function Hobbies() {
     const [handball, setHandball] = useState([]);
     const [marathons, setMarathons] = useState([]);
     const [music, setMusic] = useState([]);
-    const [hikes, setHikes] = useState([]);
     const [traveling, setTraveling] = useState([]);
 
 
@@ -18,7 +17,6 @@ function Hobbies() {
             .then(response => {
                 setHandball(response.data.sports.handball)
                 setMarathons(response.data.sports.marathons)
-                setHikes(response.data.sports.hikes)
                 setMusic(response.data.music)
                 setTraveling(response.data.trips)
             })
@@ -47,6 +45,9 @@ function Hobbies() {
                                     </li>}
                                     {!handball.titles ? null : <li>
                                         <b>Titles</b> {handball.titles}
+                                    </li>}
+                                    {!handball.advantages ? null : <li>
+                                        <b>Soft skills</b> {handball.advantages}
                                     </li>}
                                 </ul>
                             </div>
@@ -79,6 +80,9 @@ function Hobbies() {
                                     {!marathons.competitions ? null : <li>
                                         <b>Competitions</b> {marathons.competitions}
                                     </li>}
+                                    {!marathons.advantages ? null : <li>
+                                        <b>Soft skills</b> {marathons.advantages}
+                                    </li>}
                                 </ul>
                             </div>
                         </div>
@@ -94,66 +98,7 @@ function Hobbies() {
                     </div>
 
                     <div className="mt-30"></div>
-
-                    <div className="row">
-                        <div className="col-lg-6">
-                            <div className="mi-about-content">
-                                <h3>
-                                    <span className="color-theme">Hike</span>
-                                </h3>
-                                <p>
-                                    {hikes.details}
-                                </p>
-                                <ul>
-                                    {!hikes.year ? null : <li>
-                                        <b>Year</b> {hikes.year}
-                                    </li>}
-                                    {!hikes.hikes ? null : <li>
-                                        <b>Trails</b> {hikes.hikes}
-                                    </li>}
-                                </ul>
-                            </div>
-                        </div>
-
-                        <div className="col-lg-6">
-                            <div className="mi-about-image">
-                                <img
-                                    src={hikes.imageUrl}
-                                    alt="about"
-                                />
-                            </div>
-                        </div>
-                    </div>
-
-                    <div className="mt-30"></div>
-                    <Music title="Music" />
-                    <div className="row">
-                        <div className="col-lg-6">
-                            <div className="mi-about-content">
-                                <p>
-                                    {music.details}
-                                </p>
-                                <ul>
-                                    {!music.year ? null : <li>
-                                        <b>Year</b> {music.year}
-                                    </li>}
-                                    {!music.instruments ? null : <li>
-                                        <b>Instruments</b> {music.instruments}
-                                    </li>}
-                                </ul>
-                            </div>
-                        </div>
-                        <div className="col-lg-6">
-                            <div className="mi-about-image">
-                                <img
-                                    src={music.imageUrl}
-                                    alt="about"
-                                />
-                            </div>
-                        </div>
-                    </div>
-
-                    <div className="mt-30"></div>
+                    
                     <Traveling title="Travel" />
                     <div className="row">
                         <div className="col-lg-6">
@@ -168,6 +113,9 @@ function Hobbies() {
                                     {!traveling.visitedContries ? null : <li>
                                         <b>Countries</b> {traveling.visitedContries}
                                     </li>}
+                                    {!traveling.advantages ? null : <li>
+                                        <b>Soft skills</b> {traveling.advantages}
+                                    </li>}
                                 </ul>
                             </div>
                         </div>
@@ -180,6 +128,40 @@ function Hobbies() {
                             </div>
                         </div>
                     </div>
+
+                    <div className="mt-30"></div>
+                    
+                    <Music title="Music" />
+                    <div className="row">
+                        <div className="col-lg-6">
+                            <div className="mi-about-content">
+                                <p>
+                                    {music.details}
+                                </p>
+                                <ul>
+                                    {!music.year ? null : <li>
+                                        <b>Year</b> {music.year}
+                                    </li>}
+                                    {!music.instruments ? null : <li>
+                                        <b>Instruments</b> {music.instruments}
+                                    </li>}
+                                    {!music.advantages ? null : <li>
+                                        <b>Soft skills</b> {music.advantages}
+                                    </li>}
+                                </ul>
+                            </div>
+                        </div>
+                        <div className="col-lg-6">
+                            <div className="mi-about-image">
+                                <img
+                                    src={music.imageUrl}
+                                    alt="about"
+                                />
+                            </div>
+                        </div>
+                    </div>
+
+                    
                 </div>
             </div>
             <div className="mt-30"></div>
@@ -188,6 +170,4 @@ function Hobbies() {
 }
 
 export default Hobbies;
-
-
 

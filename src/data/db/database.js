@@ -4,7 +4,7 @@ const database = {
   information: {
     name: 'João Quintanilha',
     aboutContent: "With an MSc in Computer and Telematics Engineering, I consider myself as a person who is easily integrated on a team, with a natural talent to fit and deal with new and unusual situations. I am dynamic, resourceful, proactive and an understanding person who dedicated a vast life-part on knowledge expansion through self-learning. Together with outstanding communication skills, I have a great ability to adapt to multicultural environments with organizational knowledge and strategic thinking.",
-    miniAboutContent: "I am a Blockchain enthusiast who loves to code and deliver Backend services as well as decentralized applications.",
+    miniAboutContent: "a Blockchain enthusiast who loves to code and deliver Backend services as well as decentralized applications.",
     age: 26,
     nationality: 'Portuguese',
     language: 'Portuguese, English, Spanish, French',
@@ -277,7 +277,7 @@ const database = {
     sports: {
       handball: {
         year: "1998 - Current",
-        details: "Handball has been part of my life for more than two decades. It helped me develop my social skills, team work and the ability to work under pressure. Because of it, I made friends for life and had the opportunity to play with and against European and Portuguese first class teams.",
+        details: "Handball has been part of my life for more than two decades. Because of it, I made friends for life and had the opportunity to play with and against European and Portuguese first-class teams and players.",
         teams: ["Juve Lis, ", "São Bernardo, ", "PPD Zagreb, ", "University of Aveiro"],
         titles: ["Nacional University Champion, ",
           "8º Place European Championship, ",
@@ -286,7 +286,7 @@ const database = {
           "Final 4 Main Championship of Portuguese Second Division"
         ],
         imageUrl: "/images/1place.jpg",
-        advantages: "Team work, commitment, social envolvement, work under pressure"
+        advantages: "Teamwork, commitment, social involvement, work under pressure"
       },
       surflongboard: {
         year: "2012- Current",
@@ -295,14 +295,15 @@ const database = {
       },
       marathons: {
         year: "2017 - Current",
-        details: "some details",
+        details: "Running elevates my mind-state to a productive point. While I'm running I love hearing tech podcasts and learn about many different topics. It keeps my mind saint and my lifestyle healthy. I love challenging my body to do extreme activities, like running and biking marathons, keeping my body aware that my mind is always in charge of myself.",
         competitions: [
           "Geneva Harmony Marathon, ",
           "EDP Lisbon Marathon, ",
           "Aveiro Half Marathon, ",
           "Ovar Half Marathon",
         ],
-        imageUrl: "/images/marathon.jpg"
+        imageUrl: "/images/marathon.jpg",
+        advantages: "Discipline, persistence, hard work"
       },
       hikes: {
         year: "2005 - Current",
@@ -346,38 +347,40 @@ const database = {
         "Ukraine, ",
         "United Kingdom"
       ],
-      details: "Texto a detalhar",
+      details: "Travelling was always a passion of mine. As soon as I turned 18 and was allowed to travel, I bought myself an Interrail ticket and managed to travel across many cities in Europe. The passion kept being fed by the amazing experiences I had. Years later, coming to today I have managed to travel around 30 countries, having the opportunity to learn about many different cultures, people and behaviors.",
       imageUrl: "/images/travel.jpg",
-      videoUrl: "url para video"
+      videoUrl: "url para video",
+      advantages: "Self-conscience, organizational thinking, budget management, problem-solving"
     },
     music:
     {
       year: "2005 - Current",
-      details: "some detail",
+      details: "I remember watching my father playing the guitar when I was young. His music felt right to my hears, making me always wonder if I could play it myself. When I was 11, he offered me my first guitar, where I started practicing every day after school. After 15 years, I can say I am a talented self-taught musician,  having played in many different small concerts and weddings.",
       instruments: [
         "Guitar, ",
         "Ukulele, ",
         "Piano"],
-      imageUrl: "/images/music.jpg"
+      imageUrl: "/images/music.jpg",
+      advantages: "Self-learning, commitment, patience, perseverance, work under pressure"
     }
     ,
   },
   volunteering: {
     esn: {
       year: "2013 - 2017",
-      details: "Texto a detalhar",
+      details: "Because I was always fascinated by foreign cultures, as soon as I joined college I searched for international activities. Erasmus Student Network offered me a position as a Staff and Erasmus buddy, where I was in charge of helping many different foreign students as well as to organize some of their events.",
       location: "University of Aveiro",
       imageUrl: "/images/esn.jpg"
     },
     bancoAlimentar: {
       year: "2012 - 2014",
-      details: "Texto a detalhar",
+      details: "Banco Alimentar is a profitless association that gathers food for the less fortunate, fighting every day for a better future to them. At Banco Alimentar, I was responsible to manually filter and store the different food types we collected from the community.",
       location: "Parceiros, Leiria",
       imageUrl: "/images/ba.jpg"
     },
     waiter: {
-      year: "2017 - Current",
-      details: "Texto a detalhar",
+      year: "2014 - Current",
+      details: "Most of my college summers were spent gathering money for my hobbies and studies. Adega do Luís is a lovely rustic restaurant, where I worked as a waiter during summer and also on bigger festive days, like new years evening.",
       location: "Porto de Mós, Leiria",
       imageUrl: "/images/adegadoluis.jpeg"
     }
