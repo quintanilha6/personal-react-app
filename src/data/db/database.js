@@ -285,7 +285,8 @@ const database = {
           "Final 4 Junior Championship of Portuguese First Division, ",
           "Final 4 Main Championship of Portuguese Second Division"
         ],
-        imageUrl: "/images/1place.jpg"
+        imageUrl: "/images/1place.jpg",
+        advantages: "Team work, commitment, social envolvement, work under pressure"
       },
       surflongboard: {
         year: "2012- Current",
