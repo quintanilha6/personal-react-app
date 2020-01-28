@@ -380,7 +380,7 @@ const database = {
     },
     waiter: {
       year: "2014 - Current",
-      details: "Most of my college summers were spent gathering money for my hobbies and studies. Adega do Luís is a lovely rustic restaurant, where I worked as a waiter during summer and also on bigger festive days, like new years evening.",
+      details: "Most of my college summers were spent working and helping family businesses. Adega do Luís is a family business, a lovely rustic restaurant, where I worked as a waiter during summer and also on bigger festive days, like new years evening.",
       location: "Porto de Mós, Leiria",
       imageUrl: "/images/adegadoluis.jpeg"
     }
