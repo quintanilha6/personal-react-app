@@ -1,5 +1,7 @@
 Project bootstrapped from [Create React App](https://github.com/facebook/create-react-app).
 
+This project is broadcasted to DNS - https://www.jpquintanilha.com/
+
 ## Available Scripts
 
 ### `npm start`
