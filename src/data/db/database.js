@@ -4,7 +4,7 @@ const database = {
   information: {
     name: 'João Quintanilha',
     aboutContent: "With an MSc in Computer and Telematics Engineering, I consider myself as a person who is easily integrated on a team, with a natural talent to fit and deal with new and unusual situations. I am dynamic, resourceful, proactive and an understanding person who dedicated a vast life-part on knowledge expansion through self-learning. Together with outstanding communication skills, I have a great ability to adapt to multicultural environments with organizational knowledge and strategic thinking.",
-    miniAboutContent: "a Blockchain enthusiast who loves to code and deliver Backend services as well as decentralized applications.",
+    miniAboutContent: "A Blockchain enthusiast who loves to code and deliver Backend services as well as decentralized applications.",
     age: 26,
     nationality: 'Portuguese',
     language: 'Portuguese, English, Spanish, French',
