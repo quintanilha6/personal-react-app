@@ -91,9 +91,6 @@ function About() {
                   {!information.age ? null : <li>
                     <b>Age</b> {information.age} Years
                   </li>}
-                  {!information.phone ? null : <li>
-                    <b>Phone</b> {information.phone}
-                  </li>}
                   {!information.nationality ? null : <li>
                     <b>Nationality</b> {information.nationality}
                   </li>}

@@ -10,7 +10,7 @@ const database = {
     language: 'Portuguese, English, Spanish, French',
     email: 'jpquintanilha@protonmail.com',
     address: 'Urb. dos Camarinhos lt 57, Parceiros, Leiria',
-    phone: '+351 912451500',
+    phone: '',
     freelanceStatus: 'Available',
     socialLinks: {
       facebook: 'https://www.facebook.com/quintanilha.joao.9?ref=bookmarks',
