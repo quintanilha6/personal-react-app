@@ -20,7 +20,8 @@ const database = {
       linkedin: 'https://www.linkedin.com/in/jo%C3%A3o-quintanilha-24486a136/',
       dribbble: '',
       github: 'https://github.com/quintanilha6',
-      instagram: 'https://www.instagram.com/quintanilha6/'
+      instagram: 'https://www.instagram.com/quintanilha6/',
+      stack: 'https://ethereum.stackexchange.com/users/51252/joão-quintanilha'
     },
     brandImage: '/images/brand-image.jpg',
     aboutImage: '/images/about-image.jpg',
