@@ -127,11 +127,7 @@ const database = {
       value: 70
     },
     {
-      title: "LaTeX",
-      value: 65
-    },
-    {
-      title: "HTML/CSS",
+      title: "HTML / CSS",
       value: 57
     }
   ],
@@ -214,7 +210,7 @@ const database = {
         year: "2018 - Present",
         position: "Backend & Blockchain Developer",
         company: "Ubiwhere",
-        details: "Responsible for most Blockchain components (from core to high level) and respective interaction services. Create decentralized architectures for smart-contract interoperable platforms, and produce RESTful APIs to serve different client applications"
+        details: "Create decentralized architectures for smart-contract interoperable platforms. Develop dApps using Solidity, Truffle and Web3 with a solid HTTPS connection with Public Ethereum Clients. Produce RESTful APIs to serve different client applications using Python and Java Frameworks like Falcon and Spring. Environment virtualization of multiple Backend services, Middlewares and Databases (Postgres and MySQL) using Docker tools. Data balance definition for hybrid applications, Database-Blockchain."
       }
     ],
     educationExperience: [
