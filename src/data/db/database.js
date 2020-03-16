@@ -89,16 +89,7 @@ const database = {
         name: 'Prof. Dr. Filipe Correia',
         designation: 'Professor @ University of Porto',
         role: 'Main jury of Master Thesis defense'
-      },
-    },
-    {
-      id: 6,
-      content: "João is a very optimistic, helpful and skilled developer. He takes all his efforts to organize small events to gather Ubiwhere's team, which proves his genuine interest to keep a healthy social working environment.",
-      author: {
-        name: 'Ana Rodrigues',
-        designation: 'Human Resources @ Ubiwhere',
-        role: 'People and Culture Manager'
-      },
+      }
     }
   ],
   skills: [
