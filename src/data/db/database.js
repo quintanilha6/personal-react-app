@@ -125,6 +125,13 @@ const database = {
   portfolios: [
     {
       id: 1,
+      title: "Medium Article",
+      subtitle: "Blockchain for non-tech-savvy — Part I",
+      imageUrl: "/images/medium.png",
+      url: 'https://medium.com/ubigen/blockchain-for-non-tech-savvy-part-i-562f24712a23'
+    },
+    {
+      id: 2,
       title: "drEVen",
       subtitle: "Ubiwhere @ H2020 Vicinity project.",
       imageUrl: "/images/dreven.jpg",
@@ -138,7 +145,7 @@ const database = {
       url: 'https://vicinity2020.eu/vicinity/content/pilots/dreven/overview'
     },
     {
-      id: 2,
+      id: 3,
       title: "Dyagora",
       subtitle: "Zenithwings @ H2020 Blockchers project.",
       imageUrl: "/images/storywine.jpg",
@@ -148,7 +155,7 @@ const database = {
       url: 'https://zenithwings.com/projects/dyagora-blockchers'
     },
     {
-      id: 3,
+      id: 4,
       title: "My website",
       subtitle: "Personal website with ReactJS.",
       imageUrl: "/images/mywebsite.jpg",
@@ -158,7 +165,7 @@ const database = {
       url: 'https://github.com/quintanilha6/personal-react-app'
     },
     {
-      id: 4,
+      id: 5,
       title: "Crowdfunding with Ethereum",
       subtitle: "Vote-based crowdfunding system supported by Ethereum Blockchain and smart-contracts",
       imageUrl: "/images/crowdfundingethereum.jpg",
