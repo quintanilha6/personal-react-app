@@ -1,4 +1,3 @@
-Project bootstrapped from [Create React App](https://github.com/facebook/create-react-app).
 
 This project is broadcasted to DNS - https://www.jpquintanilha.com/
 
@@ -66,3 +65,7 @@ This section has moved here: https://facebook.github.io/create-react-app/docs/de
 ### `npm run build` fails to minify
 
 This section has moved here: https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify
+
+### Note
+
+Project bootstrapped from [Create React App](https://github.com/facebook/create-react-app).
