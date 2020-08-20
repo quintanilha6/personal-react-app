@@ -4,11 +4,11 @@ const database = {
   information: {
     name: 'João Quintanilha',
     aboutContent: "With an MSc in Computer and Telematics Engineering, I consider myself as a person who is easily integrated on a team, with a natural talent to fit and deal with new and unusual situations. I am dynamic, resourceful, proactive and an understanding person who dedicated a vast life-part on knowledge expansion through self-learning. Together with outstanding communication skills, I have a great ability to adapt to multicultural environments with organizational knowledge and strategic thinking.",
-    miniAboutContent: "A Blockchain enthusiast who loves to code and deliver Backend services as well as decentralized applications.",
-    age: 26,
+    miniAboutContent: "A Software Developer who loves to code and deliver Full-stack services as well as Blockchain applications.",
+    age: 27,
     nationality: 'Portuguese',
     language: 'Portuguese, English, Spanish, French',
-    email: 'jpquintanilha@protonmail.com',
+    email: 'jpquintanilha6@gmail.com',
     address: 'Urb. dos Camarinhos lt 57, Parceiros, Leiria',
     phone: '',
     freelanceStatus: 'Available',
@@ -32,17 +32,17 @@ const database = {
     {
       title: "Backend Development",
       icon: 'code',
-      details: "Traditional web and microservices using REST API practices, security patterns and ORMs."
+      details: "Traditional services using common RESTful API practices and security patterns."
+    },
+    {
+      title: "Full-stack Development",
+      icon: 'color-pallet', //mobile
+      details: "Develop web applications to consume different RESTful APIs and services."
     },
     {
       title: "Decentralized applications",
       icon: 'certificate',
       details: "Smart-contract development and usage for different Blockchain environments."
-    },
-    {
-      title: "Full-stack Development",
-      icon: 'color-pallet', //mobile
-      details: "Develop frontends to consume REST APIs or provide dApps resources for Blockchain interaction."
     }
   ],
   reviews: [
@@ -115,11 +115,15 @@ const database = {
     },
     {
       title: "Linux OS (Bash)",
-      value: 70
+      value: 80
     },
     {
       title: "HTML / CSS",
       value: 57
+    },
+    {
+      title: "Databases + ORM (PostgreSQL/MySQL + SQLAlchemy)",
+      value: 77
     }
   ],
   portfolios: [
@@ -205,7 +209,14 @@ const database = {
     workingExperience: [
       {
         id: 1,
-        year: "2018 - Present",
+        year: "Current",
+        position: "Software Developer",
+        company: "Bosch Security Systems",
+        details: "Part of Bosch Smart Home team, I am responsible to integrate the different Bosch services and devices with Bosch Home device, providing interoperability across a new and improved IoT ecosystem."
+      },
+      {
+        id: 2,
+        year: "2018 - 2020",
         position: "Backend & Blockchain Developer",
         company: "Ubiwhere",
         details: "Create decentralized architectures for smart-contract interoperable platforms. Develop dApps using Solidity, Truffle and Web3 with a solid HTTPS connection with Public Ethereum Clients. Produce RESTful APIs to serve different client applications using Python and Java Frameworks like Falcon and Spring. Environment virtualization of multiple Backend services, Middlewares and Databases (Postgres and MySQL) using Docker tools. Data balance definition for hybrid applications, Database-Blockchain."
