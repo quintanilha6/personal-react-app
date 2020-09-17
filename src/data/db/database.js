@@ -129,13 +129,20 @@ const database = {
   portfolios: [
     {
       id: 1,
+      title: "Leirifisio website",
+      subtitle: "Website to promote a nacional small-sized Physiotherapy center.",
+      imageUrl: "/images/leirifisio.png",
+      url: 'https://www.leirifisio.com/'
+    },
+    {
+      id: 2,
       title: "Medium Article",
-      subtitle: "Blockchain for non-tech-savvy — Part I",
+      subtitle: "Blockchain for non-tech-savvy — Part I.",
       imageUrl: "/images/medium.png",
       url: 'https://medium.com/ubigen/blockchain-for-non-tech-savvy-part-i-562f24712a23'
     },
     {
-      id: 2,
+      id: 3,
       title: "drEVen",
       subtitle: "Ubiwhere @ H2020 Vicinity project.",
       imageUrl: "/images/dreven.jpg",
@@ -149,7 +156,7 @@ const database = {
       url: 'https://vicinity2020.eu/vicinity/content/pilots/dreven/overview'
     },
     {
-      id: 3,
+      id: 4,
       title: "Dyagora",
       subtitle: "Zenithwings @ H2020 Blockchers project.",
       imageUrl: "/images/storywine.jpg",
@@ -159,7 +166,7 @@ const database = {
       url: 'https://zenithwings.com/projects/dyagora-blockchers'
     },
     {
-      id: 4,
+      id: 5,
       title: "My website",
       subtitle: "Personal website with ReactJS.",
       imageUrl: "/images/mywebsite.jpg",
@@ -169,37 +176,37 @@ const database = {
       url: 'https://github.com/quintanilha6/personal-react-app'
     },
     {
-      id: 5,
+      id: 6,
       title: "Crowdfunding with Ethereum",
-      subtitle: "Vote-based crowdfunding system supported by Ethereum Blockchain and smart-contracts",
+      subtitle: "Vote-based crowdfunding system supported by Ethereum Blockchain and smart-contracts.",
       imageUrl: "/images/crowdfundingethereum.jpg",
       url: 'https://github.com/quintanilha6/ETHEREUM-crowdfunding-project'
     },
     {
-      id: 6,
+      id: 7,
       title: "Springboot template initializers",
-      subtitle: "Series of spring boot useful templates to not start from scratch entirely",
+      subtitle: "Series of spring boot useful templates to not start from scratch entirely.",
       imageUrl: "/images/springboot.png",
       url: 'https://github.com/quintanilha6/spring-boot'
     },
     {
-      id: 7,
+      id: 8,
       title: "Artificial Intelligence",
-      subtitle: "Autonomous agent that learns and profits against casino's Blackjack",
+      subtitle: "Autonomous agent that learns and profits against casino's Blackjack.",
       imageUrl: "/images/aibj.jpg",
       url: 'https://github.com/quintanilha6/artificial_intelligence_blackjack'
     },
     {
-      id: 8,
+      id: 9,
       title: "Master Thesis",
-      subtitle: "Multi-agent loyalty program over Blockchain",
+      subtitle: "Multi-agent loyalty program over Blockchain.",
       imageUrl: "/images/ua.jpg",
       url: 'https://ria.ua.pt/'
     },
     {
-      id: 9,
+      id: 10,
       title: "Bachelor Project",
-      subtitle: "Patient managment platform for a post-stroke clinic. Partnership with Rovisco Pais",
+      subtitle: "Patient managment platform for a post-stroke clinic. Partnership with Rovisco Pais.",
       imageUrl: "/images/ua.jpg",
       url: 'https://github.com/quintanilha6/avc_project'
     }
