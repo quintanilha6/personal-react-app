@@ -95,35 +95,43 @@ const database = {
   skills: [
     {
       title: "Python (Falcon, Django)",
-      value: 89
+      value: 90
     },
     {
       title: "Solidity",
-      value: 82
+      value: 90
     },
     {
       title: "Java (Spring)",
-      value: 78
+      value: 80
     },
     {
       title: "Javascript (Node, ReactJS)",
-      value: 71
+      value: 80
     },
     {
-      title: "Docker / Docker-compose",
-      value: 70
+      title: "Docker & Docker-compose",
+      value: 80
     },
     {
       title: "Linux OS (Bash)",
       value: 80
     },
     {
-      title: "HTML / CSS",
-      value: 57
+      title: "Databases & ORMs (PostgreSQL, MySQL, SQLAlchemy)",
+      value: 80
     },
     {
-      title: "Databases + ORM (PostgreSQL/MySQL + SQLAlchemy)",
-      value: 77
+      title: "Testing Frameworks (Junit, Mockito, Robot, Mocha, Chai, etc.)",
+      value: 80
+    },
+    {
+      title: "Nginx & Apache",
+      value: 70
+    },
+    {
+      title: "HTML & CSS",
+      value: 70
     }
   ],
   portfolios: [
