@@ -171,7 +171,7 @@ const database = {
       largeImageUrl: [
         "/images/storywine-lg.png"
       ],
-      url: 'https://zenithwings.com/projects/dyagora-blockchers'
+      url: 'https://www.zenithwings.com/dyagora/'
     },
     {
       id: 5,
