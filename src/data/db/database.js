@@ -209,7 +209,7 @@ const database = {
       title: "Master Thesis",
       subtitle: "Multi-agent loyalty program over Blockchain.",
       imageUrl: "/images/ua.jpg",
-      url: 'https://ria.ua.pt/'
+      url: 'https://ria.ua.pt/handle/10773/29434'
     },
     {
       id: 10,
