@@ -226,11 +226,18 @@ const database = {
         id: 1,
         year: "Current",
         position: "Software Developer",
+        company: "CERN",
+        details: "Part of the Experiments department I am responsible to develop and maintain several different applications regarding Compact Muon Solenoid experiments."
+      },
+      {
+        id: 2,
+        year: "2020 - 2021",
+        position: "Software Developer",
         company: "Bosch Security Systems",
         details: "Part of Bosch Smart Home team, I am responsible to integrate the different Bosch services and devices with Bosch Home device, providing interoperability across a new and improved IoT ecosystem."
       },
       {
-        id: 2,
+        id: 3,
         year: "2018 - 2020",
         position: "Backend & Blockchain Developer",
         company: "Ubiwhere",
