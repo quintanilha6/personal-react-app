@@ -31,6 +31,12 @@ function Resumes(){
       <div className="mi-skills-area mi-section mi-padding-top">
         <div className="container">
           <Sectiontitle title="My Skills" />
+          <h6 className="mi-progress-title">1 - Academic</h6>
+          <h6 className="mi-progress-title">2 - Online and certified training</h6>        
+          <h6 className="mi-progress-title">3 - Personal project experience</h6> 
+          <h6 className="mi-progress-title">4 - Professional experience</h6> 
+          <h6 className="mi-progress-title">5 - 5+ years of personal and professional experience</h6> 
+          <br></br>
           <div className="mi-skills">
             <div className="row mt-30-reverse">
               {skills.map(skill => (

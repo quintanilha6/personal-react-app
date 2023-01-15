@@ -5,7 +5,7 @@
 .mi-progress{
   &-title{
     font-weight: 600;
-    margin-bottom: 0;
+    margin-bottom: 3px;
   }
 
   &-inner{
@@ -14,10 +14,11 @@
   }
 
   &-percentage{
-    flex: 0 0 60px;
+    flex: 0 0 0;
   }
 
   &-container{
+    margin-bottom: 3px;
     background: $color-border;
     display: block;
     height: 6px;
@@ -26,12 +27,15 @@
   }
 
   &-active{
-    position: absolute;
-    left: 0;
-    top: 0;
-    height: 100%;
-    background: $color-theme;
-    width: 0;
-    transition: all 1s cubic-bezier(0.01, 0.57, 0.68, 1.05) 0s;
+    position:absolute;
+    height: 5px;
+    background:$color-theme;
+    top:0;
+    left:0;
+    display:flex;
+    align-items:bottom;
+    justify-content:flex-end;
+    padding-right:10px;
+
   }
 }

@@ -4,23 +4,23 @@ const database = {
   information: {
     name: 'João Quintanilha',
     aboutContent: "With an MSc in Computer and Telematics Engineering, I consider myself as a person who is easily integrated on a team, with a natural talent to fit and deal with new and unusual situations. I am dynamic, resourceful, proactive and an understanding person who dedicated a vast life-part on knowledge expansion through self-learning. Together with outstanding communication skills, I have a great ability to adapt to multicultural environments with organizational knowledge and strategic thinking.",
-    miniAboutContent: "A Software Developer who loves to code and deliver Full-stack services as well as Blockchain applications.",
-    age: 27,
+    miniAboutContent: "A Software Developer who loves to code and deliver Backend and Full-stack services as well as Blockchain applications.",
+    age: 29,
     nationality: 'Portuguese',
-    language: 'Portuguese, English, Spanish, French',
+    language: 'Portuguese, English, French, Spanish',
     email: 'jpquintanilha6@gmail.com',
-    address: 'Urb. dos Camarinhos lt 57, Parceiros, Leiria',
+    address: 'Crissier, Lausanne',
     phone: '',
     freelanceStatus: 'Available',
     socialLinks: {
-      facebook: 'https://www.facebook.com/quintanilha.joao.9?ref=bookmarks',
+      facebook: '',
       twitter: '',
       pinterest: '',
       behance: '',
       linkedin: 'https://www.linkedin.com/in/jo%C3%A3o-quintanilha-24486a136/',
       dribbble: '',
       github: 'https://github.com/quintanilha6',
-      instagram: 'https://www.instagram.com/quintanilha6/',
+      instagram: '',
       stack: 'https://ethereum.stackexchange.com/users/51252/joão-quintanilha'
     },
     brandImage: '/images/brand-image.jpg',
@@ -32,17 +32,17 @@ const database = {
     {
       title: "Backend Development",
       icon: 'code',
-      details: "Traditional services using common RESTful API practices and security patterns."
+      details: "Proficient in server-side languages and frameworks. Knowledge of database integrations. Understanding of RESTful API design and development. Familiarity with version control systems. Familiarity with containerization and orchestration technologies."
     },
     {
       title: "Full-stack Development",
       icon: 'color-pallet', //mobile
-      details: "Develop web applications to consume different RESTful APIs and services."
+      details: "Proficient in a wide range of web development technologies. Knowledge of databases and experience with Object-Relational Mapping libraries. Understanding of web development concepts, such as RESTful API design, MVC, and responsive design. Experience with cloud platforms."
     },
     {
       title: "Decentralized applications",
       icon: 'certificate',
-      details: "Smart-contract development and usage for different Blockchain environments."
+      details: "Strong understanding of blockchain technology and its underlying principles, such as DLTs, consensus, and smart contracts. Proficient in Smart-Contracts programming languages. Experience with smart contract development and deployment on a blockchain network."
     }
   ],
   reviews: [
@@ -57,7 +57,7 @@ const database = {
     },
     {
       id: 2,
-      content: "Demonstrated a proactive and organizational attitude by taking all his available time to foresee possible issues coming from both his job and his Master Thesis.",
+      content: "Demonstrated a proactive and organizational attitude by taking all his available time to foresee possible issues coming from both his job and his Master's Thesis.",
       author: {
         name: 'Prof. Dr. Telmo Fernandes',
         designation: 'Professor @ Polytechnical Institute of Leiria',
@@ -66,7 +66,7 @@ const database = {
     },
     {
       id: 3,
-      content: "I was impressed by his pro-activity when addressing existing software, like Blockchain tech: his questions were always backed-up by a careful study of the case, accompanied by solutions proposals.",
+      content: "I was positively surprised by his approach when addressing existing software for Blockchain technologies. His questions were always backed-up by a careful study of the case, accompanied by well structured solutions proposals.",
       author: {
         name: 'Prof. Dr. Hélder Gomes',
         designation: 'Professor @ University of Aveiro',
@@ -75,7 +75,7 @@ const database = {
     },
     {
       id: 4,
-      content: "A very efforted and talented developer, always willing to help his colleagues. João demonstrated huge technological growth while working under my projects and never missed a deadline.",
+      content: "A very efforted and talented young developer, always willing to help and learn from colleagues. João showed a good technological growth while working for my projects and never missed a deadline.",
       author: {
         name: 'Eng. Pedro Diogo',
         designation: 'Project Manager @ Ubiwhere',
@@ -84,7 +84,7 @@ const database = {
     },
     {
       id: 5,
-      content: "João's Master Thesis presented an enormous value to the loyalty program's field for its innovative approach and quality KPIs.",
+      content: "João's Master Thesis presented a significant value to the loyalty program field for its innovative approach and quality KPIs.",
       author: {
         name: 'Prof. Dr. Filipe Correia',
         designation: 'Professor @ University of Porto',
@@ -94,44 +94,44 @@ const database = {
   ],
   skills: [
     {
+      title: "Java (Spring)",
+      value: 5
+    },
+    {
       title: "Python (Falcon, Django)",
-      value: 90
+      value: 4
     },
     {
       title: "Solidity",
-      value: 90
-    },
-    {
-      title: "Java (Spring)",
-      value: 80
+      value: 4
     },
     {
       title: "Javascript (Node, ReactJS)",
-      value: 80
+      value: 4
     },
     {
-      title: "Docker & Docker-compose",
-      value: 80
-    },
-    {
-      title: "Linux OS (Bash)",
-      value: 80
+      title: "Containerization and Orchestration (Docker, Docker-compose)",
+      value: 4
     },
     {
       title: "Databases & ORMs (PostgreSQL, MySQL, SQLAlchemy)",
-      value: 80
+      value: 4
     },
     {
-      title: "Testing Frameworks (Junit, Mockito, Robot, Mocha, Chai, etc.)",
-      value: 80
+      title: "Testing Frameworks (Junit, Mockito, Robot, Mocha, Chai)",
+      value: 4
+    },
+    {
+      title: "CI/CD (Jenkins, Gitlab)",
+      value: 4
     },
     {
       title: "Nginx & Apache",
-      value: 70
+      value: 3
     },
     {
       title: "HTML & CSS",
-      value: 70
+      value: 3
     }
   ],
   portfolios: [
@@ -227,21 +227,21 @@ const database = {
         year: "Current",
         position: "Software Developer",
         company: "CERN",
-        details: "Part of the Experiments department I am responsible to develop and maintain several different applications regarding Compact Muon Solenoid experiments."
+        details: "At CERN, I am part of the Experimental Physics Department I am responsible to develop and maintain several different applications regarding Compact Muon Solenoid experiments."
       },
       {
         id: 2,
         year: "2020 - 2021",
         position: "Software Developer",
         company: "Bosch Security Systems",
-        details: "Part of Bosch Smart Home team, I am responsible to integrate the different Bosch services and devices with Bosch Home device, providing interoperability across a new and improved IoT ecosystem."
+        details: "Part of the Bosch Smart Home team, I was responsible to integrate different external services and products with Bosch Home devices and services, providing interoperability across a new and improved IoT ecosystem at home. Developed some of the speech-to-action (such as open/close commands to shutters and door locks) currently existing on the market to use with Google Assistant and Alexa. Most functionalities were developed using Spring and Vertx. Made use and contributed to a massive CI/CD using Jenkins. Followed Scrum framework vigurously."
       },
       {
         id: 3,
         year: "2018 - 2020",
         position: "Backend & Blockchain Developer",
         company: "Ubiwhere",
-        details: "Create decentralized architectures for smart-contract interoperable platforms. Develop dApps using Solidity, Truffle and Web3 with a solid HTTPS connection with Public Ethereum Clients. Produce RESTful APIs to serve different client applications using Python and Java Frameworks like Falcon and Spring. Environment virtualization of multiple Backend services, Middlewares and Databases (Postgres and MySQL) using Docker tools. Data balance definition for hybrid applications, Database-Blockchain."
+        details: "At Ubiwhere I was in charge of help designing and develop decentralized architectures for smart-contract interoperable platforms. Develop dApps using Solidity, Truffle, and Web3 with HTTPS connection for Public Ethereum Clients. Produce RESTful APIs to serve different client applications using Python and Java Frameworks like Falcon and Spring. Environment virtualization of multiple Backend services, middleware, and Databases (Postgres and MySQL) using Docker tools. Data balance definition for hybrid applications, Database-Blockchain."
       }
     ],
     educationExperience: [
