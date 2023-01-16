@@ -227,7 +227,7 @@ const database = {
         year: "Current",
         position: "Software Developer",
         company: "CERN",
-        details: "At CERN, I am part of the Experimental Physics Department I am responsible to develop and maintain several different applications regarding Compact Muon Solenoid experiments."
+        details: "At CERN, I am part of the Experimental Physics Department on a team responsible for the control systems of the Compact Muon Solenoid experiment (CMS). It contains a large hierarchy of subdetectors and subsystems, with control systems running over WinCC OA  and Supervisory Control and Data Acquisition (SCADA). On a higher level, there is cmsonline, which holds many web applications used to monitor, execute operations, manage access authorization, etc., regarding all subdetectors. I am responsible for maintaining and developing several applications from cmsonline, mainly using Java with Oracle Application Development Framework (Oracle ADF). Applications are deployed in Weblogic Oracle Servers and managed through the Weblogic console. I have also migrated some components to Spring and actively contribute to the support role, resolving consumer's problems and helping clarify some doubts."
       },
       {
         id: 2,
@@ -268,33 +268,44 @@ const database = {
       }
     ],
     certificates: [
-
       {
         id: 1,
+        year: "2022",
+        certificate: "Professional Scrum Master I (PSM 1)",
+        issuingEntity: "Scrum.org"
+      },
+      {
+        id: 2,
+        year: "2020",
+        certificate: "Docker Mastery: with Kubernetes + Swarm",
+        issuingEntity: "Udemy - Online Learning Platform"
+      },
+      {
+        id: 3,
         year: "2019",
         certificate: "Basic Life Support",
         issuingEntity: "UNAVE - Professional Training Association"
       },
       {
-        id: 2,
+        id: 4,
         year: "2019",
         certificate: "Springboot Development",
         issuingEntity: "Udemy - Online Learning Platform"
       },
       {
-        id: 3,
+        id: 5,
         year: "2018",
         certificate: "Blockchain Development on Hyperledger Fabric using Composer",
         issuingEntity: "Udemy - Online Learning Platform"
       },
       {
-        id: 4,
+        id: 6,
         year: "2017",
         certificate: "Ethereum and Solidity: Developer’s Guide",
         issuingEntity: "Udemy - Online Learning Platform"
       },
       {
-        id: 5,
+        id: 7,
         year: "2015",
         certificate: "First Certificate in English",
         issuingEntity: "Royal School of Languages - Private School of Languages and Translations"
