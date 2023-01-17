@@ -21,14 +21,14 @@
     margin-bottom: 3px;
     background: $color-border;
     display: block;
-    height: 6px;
+    height: 15px;
     width: 100%;
     position: relative;
   }
 
   &-active{
     position:absolute;
-    height: 5px;
+    height: 15px;
     background:$color-theme;
     top:0;
     left:0;
@@ -38,4 +38,26 @@
     padding-right:10px;
 
   }
+
+.progress-bar {
+    border-radius: 0% !important;
+    border:solid 1px #fff;
+    border-right-width: 5px #131418;
+  }
+.progress-bar:last-child {
+    border-right-width: none;
+  }
+
+.bg-success{
+  background-color: $color-theme !important;
+}
+
+.bg-warning{
+  background-color: #6b6b6b !important;
+
+}
+
+.bg-warning:last-child{
+  border-right:none !important;
+}
 }
