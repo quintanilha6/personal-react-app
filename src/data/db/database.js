@@ -304,15 +304,15 @@ const database = {
       },
       {
         id: 3,
-        year: "2019",
-        certificate: "Basic Life Support",
-        issuingEntity: "UNAVE - Professional Training Association"
+        year: "2020",
+        certificate: "Springboot Development",
+        issuingEntity: "Udemy - Online Learning Platform"
       },
       {
         id: 4,
         year: "2019",
-        certificate: "Springboot Development",
-        issuingEntity: "Udemy - Online Learning Platform"
+        certificate: "Basic Life Support",
+        issuingEntity: "UNAVE - Professional Training Association"
       },
       {
         id: 5,
@@ -322,13 +322,13 @@ const database = {
       },
       {
         id: 6,
-        year: "2017",
+        year: "2018",
         certificate: "Ethereum and Solidity: Developer’s Guide",
         issuingEntity: "Udemy - Online Learning Platform"
       },
       {
         id: 7,
-        year: "2015",
+        year: "2014",
         certificate: "First Certificate in English",
         issuingEntity: "Royal School of Languages - Private School of Languages and Translations"
       }
