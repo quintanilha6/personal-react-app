@@ -450,7 +450,7 @@ const database = {
   contactInfo: {
     phoneNumbers: ['+351 912451500'],
     emailAddress: ['jpquintanilha@protonmail.com', 'jpquintanilha6@gmail.com'],
-    address: "Urb. dos Camarinhos lt 57, Parceiros, Leiria"
+    address: "Crissier, Lausanne"
   }
 }
 
