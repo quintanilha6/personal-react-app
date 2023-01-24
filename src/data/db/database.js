@@ -8,7 +8,7 @@ const database = {
     age: 29,
     nationality: 'Portuguese',
     language: 'Portuguese, English, French, Spanish',
-    email: 'jpquintanilha6@gmail.com',
+    email: 'jpquintanilha@protonmail.com',
     address: 'Crissier, Lausanne',
     phone: '',
     freelanceStatus: 'Available',
