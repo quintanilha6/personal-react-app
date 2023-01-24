@@ -3,7 +3,7 @@ import Mock from "../mock";
 const database = {
   information: {
     name: 'João Quintanilha',
-    aboutContent: "With an MSc in Computer and Telematics Engineering, I consider myself as a person who is easily integrated on a team, with a natural talent to fit and deal with new and unusual situations. I am dynamic, resourceful, proactive and an understanding person who dedicated a vast life-part on knowledge expansion through self-learning. Together with outstanding communication skills, I have a great ability to adapt to multicultural environments with organizational knowledge and strategic thinking.",
+    aboutContent: "With an MSc in Computer and Telematics Engineering. I consider myself a person who is easily integrated into a team, with a natural talent for dealing with various assignments. I have strong analytical and problem-solving skills and am dynamic, resourceful, and proactive. I have excellent communication skills, smooth adaptability to multicultural environments, good organizational knowledge, and noteworthy strategic thinking. I love being engaged with a team, working together thoroughly towards a meaningful objective.",
     miniAboutContent: "A Software Developer who loves to code and deliver Backend and Full-stack services as well as Blockchain applications.",
     age: 29,
     nationality: 'Portuguese',
