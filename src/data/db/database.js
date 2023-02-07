@@ -292,42 +292,48 @@ const database = {
     certificates: [
       {
         id: 1,
+        year: "2023",
+        certificate: "First Aid - Life Saving Actions)",
+        issuingEntity: "CERN"
+      },
+      {
+        id: 2,
         year: "2022",
         certificate: "Professional Scrum Master I (PSM 1)",
         issuingEntity: "Scrum.org"
       },
       {
-        id: 2,
+        id: 3,
         year: "2020",
         certificate: "Docker Mastery: with Kubernetes + Swarm",
         issuingEntity: "Udemy - Online Learning Platform"
       },
       {
-        id: 3,
+        id: 4,
         year: "2020",
         certificate: "Springboot Development",
         issuingEntity: "Udemy - Online Learning Platform"
       },
       {
-        id: 4,
+        id: 5,
         year: "2019",
         certificate: "Basic Life Support",
         issuingEntity: "UNAVE - Professional Training Association"
       },
       {
-        id: 5,
+        id: 6,
         year: "2018",
         certificate: "Blockchain Development on Hyperledger Fabric using Composer",
         issuingEntity: "Udemy - Online Learning Platform"
       },
       {
-        id: 6,
+        id: 7,
         year: "2018",
         certificate: "Ethereum and Solidity: Developer’s Guide",
         issuingEntity: "Udemy - Online Learning Platform"
       },
       {
-        id: 7,
+        id: 8,
         year: "2014",
         certificate: "First Certificate in English",
         issuingEntity: "Royal School of Languages - Private School of Languages and Translations"
