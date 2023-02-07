@@ -293,7 +293,7 @@ const database = {
       {
         id: 1,
         year: "2023",
-        certificate: "First Aid - Life Saving Actions)",
+        certificate: "First Aid - Life Saving Actions",
         issuingEntity: "CERN"
       },
       {
