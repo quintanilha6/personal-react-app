@@ -5,11 +5,11 @@ const database = {
     name: 'João Quintanilha',
     aboutContent: "With an MSc in Computer and Telematics Engineering. I consider myself a person who is easily integrated into a team, with a natural talent for dealing with various assignments. I have strong analytical and problem-solving skills and am dynamic, resourceful, and proactive. I have excellent communication skills, smooth adaptability to multicultural environments, good organizational knowledge, and noteworthy strategic thinking. I love being engaged with a team, working together thoroughly towards a meaningful objective.",
     miniAboutContent: "A Software Developer who loves to code, deliver Backend and Full-stack services, as well as Blockchain applications.",
-    age: 29,
+    age: 30,
     nationality: 'Portuguese',
     language: 'Portuguese, English, French, Spanish',
     email: 'jpquintanilha@protonmail.com',
-    address: 'Crissier, Lausanne',
+    address: 'Bern',
     phone: '',
     freelanceStatus: 'Available',
     socialLinks: {
@@ -253,13 +253,20 @@ const database = {
       },
       {
         id: 2,
+        year: "2021-2023",
+        position: "Software Developer",
+        company: "CERN",
+        details: "At CERN, I am part of the Experimental Physics Department on a team responsible for the control systems of the Compact Muon Solenoid experiment (CMS). It contains a large hierarchy of subdetectors and subsystems, with control systems running over WinCC OA  and Supervisory Control and Data Acquisition (SCADA). On a higher level, there is cmsonline, which holds many web applications used to monitor, execute operations, manage access authorization, etc., regarding all subdetectors. I am responsible for maintaining and developing several applications from cmsonline, mainly using Java with Oracle Application Development Framework (Oracle ADF). Applications are deployed in Weblogic Oracle Servers and managed through the Weblogic console. I have also migrated some components to Spring and actively contribute to the support role, resolving consumer's problems and helping clarify some doubts."
+      },
+      {
+        id: 3,
         year: "2020 - 2021",
         position: "Software Developer",
         company: "Bosch Security Systems",
         details: "Part of the Bosch Smart Home team, I was responsible to integrate different external services and products with Bosch Home devices and services, providing interoperability across a new and improved IoT ecosystem at home. Developed some of the speech-to-action (such as open/close commands to shutters and door locks) currently existing on the market to use with Google Assistant and Alexa. Most functionalities were developed using Spring and Vertx. Made use and contributed to a massive CI/CD using Jenkins. Followed Scrum framework vigurously."
       },
       {
-        id: 3,
+        id: 4,
         year: "2018 - 2020",
         position: "Backend & Blockchain Developer",
         company: "Ubiwhere",
