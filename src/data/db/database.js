@@ -3,13 +3,13 @@ import Mock from "../mock";
 const database = {
   information: {
     name: 'João Quintanilha',
-    aboutContent: "With an MSc in Computer and Telematics Engineering. I consider myself a person who is easily integrated into a team, with a natural talent for dealing with various assignments. I have strong analytical and problem-solving skills and am dynamic, resourceful, and proactive. I have excellent communication skills, smooth adaptability to multicultural environments, good organizational knowledge, and noteworthy strategic thinking. I love being engaged with a team, working together thoroughly towards a meaningful objective.",
-    miniAboutContent: "A Software Developer who loves to code, deliver Backend and Full-stack services, as well as Blockchain applications.",
-    age: 30,
+    aboutContent: "I am João Quintanilha, a 32-year-old Software Developer with an MSc in Computer and Telematics Engineering. I could use all those fancy buzz words to describe me, like proactive, problem-solver, dynamic, resourceful, and the list goes on and on because chatgpt is really good at this nowadays... But in the end, I'm a simple guy, with a simple life. So, even though I'm no rocket scientist, you can count on me to work hard to achieve something meaningful. I do value harmony in a team and I am no stranger to help achieve that. Ping me if you'd like to know more about me.",
+    miniAboutContent: "A Software Developer who loves to code, create and learn new technologies. Experienced in Backend, Full-Stack, and Decentralized applications development.",
+    age: 32,
     nationality: 'Portuguese',
     language: 'Portuguese, English, French, Spanish',
     email: 'jpquintanilha@protonmail.com',
-    address: 'Bern',
+    address: 'Murten, Switzerland',
     phone: '',
     freelanceStatus: 'Available',
     socialLinks: {
@@ -106,37 +106,50 @@ const database = {
       value: 4
     },
     {
-      title: "Javascript (Node, ReactJS)",
+      title: "Javascript/Typescript (Node, ReactJS, Angular)",
       value: 4
     },
     {
-      title: "Containerization and Orchestration (Docker, Docker-compose)",
-      value: 4
+      title: "Containerization and Orchestration (Docker, Docker-compose, Kubernetes)",
+      value: 5
     },
     {
-      title: "Databases & ORMs (PostgreSQL, MySQL, SQLAlchemy)",
-      value: 4
+      title: "AWS Services",
+      value: 5
     },
     {
-      title: "Testing Frameworks (Junit, Mockito, Robot, Mocha, Chai)",
-      value: 4
+      title: "Databases & ORMs (PostgreSQL, Oracle, MySQL, SQLAlchemy, Hibernate)",
+      value: 5
     },
     {
-      title: "CI/CD (Jenkins, Gitlab)",
-      value: 4
+      title: "Testing Frameworks (Junit, Mockito, Robot Framework)",
+      value: 5
+    },
+    {
+      title: "CI/CD (Jenkins, Gitlab, Github)",
+      value: 5
     },
     {
       title: "Nginx & Apache",
       value: 3
     },
     {
-      title: "HTML & CSS",
-      value: 3
+      title: "HTML & Styling (CSS, SASS, Bootstrap)",
+      value: 4
     }
   ],
   portfolios: [
     {
       id: 1,
+      title: "Frachtbrief online",
+      subtitle: "Online platform to create international waybills for Swiss Post.",
+      imageUrl: [
+        "/images/post.png",
+    ],
+      url: 'https://apps.post.ch/fb'
+    },
+    {
+      id: 2,
       title: "Cmsonline platform",
       subtitle: "Control systems for Compact Muon Solenoid experiment.",
       imageUrl: [
@@ -145,14 +158,14 @@ const database = {
       url: 'https://cmsonline.cern.ch/'
     },
     {
-      id: 2,
+      id: 3,
       title: "Leirifisio website",
       subtitle: "Website to promote a nacional small-sized Physiotherapy center.",
       imageUrl: "/images/leirifisio.png",
       url: 'https://www.leirifisio.com/'
     },
     {
-      id: 3,
+      id: 4,
       title: "Bosch Smart Home",
       subtitle: "IoT network for home devices.",
       largeImageUrl: [
@@ -165,14 +178,14 @@ const database = {
       url: 'https://www.youtube.com/@BoschSmartHome'
     },
     {
-      id: 4,
+      id: 5,
       title: "Medium Article",
       subtitle: "Blockchain for non-tech-savvy — Part I.",
       imageUrl: "/images/medium.png",
       url: 'https://medium.com/ubigen/blockchain-for-non-tech-savvy-part-i-562f24712a23'
     },
     {
-      id: 5,
+      id: 6,
       title: "drEVen",
       subtitle: "Ubiwhere @ H2020 Vicinity project.",
       imageUrl: "/images/dreven.jpg",
@@ -186,7 +199,7 @@ const database = {
       url: 'https://vicinity2020.eu/vicinity/content/pilots/dreven/overview'
     },
     {
-      id: 6,
+      id: 7,
       title: "Dyagora",
       subtitle: "Zenithwings @ H2020 Blockchers project.",
       imageUrl: "/images/storywine.jpg",
@@ -196,7 +209,7 @@ const database = {
       url: 'https://www.zenithwings.com/dyagora/'
     },
     {
-      id: 7,
+      id: 8,
       title: "My website",
       subtitle: "Personal website with ReactJS.",
       imageUrl: "/images/mywebsite.jpg",
@@ -206,35 +219,35 @@ const database = {
       url: 'https://github.com/quintanilha6/personal-react-app'
     },
     {
-      id: 8,
+      id: 9,
       title: "Crowdfunding with Ethereum",
       subtitle: "Vote-based crowdfunding system supported by Ethereum Blockchain and smart-contracts.",
       imageUrl: "/images/crowdfundingethereum.jpg",
       url: 'https://github.com/quintanilha6/ETHEREUM-crowdfunding-project'
     },
     {
-      id: 9,
+      id: 10,
       title: "Springboot template initializers",
       subtitle: "Series of spring boot useful templates to not start from scratch entirely.",
       imageUrl: "/images/springboot.png",
       url: 'https://github.com/quintanilha6/spring-boot'
     },
     {
-      id: 10,
+      id: 11,
       title: "Artificial Intelligence",
       subtitle: "Autonomous agent that learns and profits against casino's Blackjack.",
       imageUrl: "/images/aibj.jpg",
       url: 'https://github.com/quintanilha6/artificial_intelligence_blackjack'
     },
     {
-      id: 11,
+      id: 12,
       title: "Master Thesis",
       subtitle: "Multi-agent loyalty program over Blockchain.",
       imageUrl: "/images/ua.jpg",
       url: 'https://ria.ua.pt/handle/10773/29434'
     },
     {
-      id: 12,
+      id: 13,
       title: "Bachelor Project",
       subtitle: "Patient managment platform for a post-stroke clinic. Partnership with Rovisco Pais.",
       imageUrl: "/images/ua.jpg",
@@ -246,10 +259,10 @@ const database = {
     workingExperience: [
       {
         id: 1,
-        year: "Current",
+        year: "2023-Current",
         position: "Software Developer",
-        company: "CERN",
-        details: "At CERN, I am part of the Experimental Physics Department on a team responsible for the control systems of the Compact Muon Solenoid experiment (CMS). It contains a large hierarchy of subdetectors and subsystems, with control systems running over WinCC OA  and Supervisory Control and Data Acquisition (SCADA). On a higher level, there is cmsonline, which holds many web applications used to monitor, execute operations, manage access authorization, etc., regarding all subdetectors. I am responsible for maintaining and developing several applications from cmsonline, mainly using Java with Oracle Application Development Framework (Oracle ADF). Applications are deployed in Weblogic Oracle Servers and managed through the Weblogic console. I have also migrated some components to Spring and actively contribute to the support role, resolving consumer's problems and helping clarify some doubts."
+        company: "Swiss Post",
+        details: "At PostIT, I am part of the International Mail and Parcels (IMP) team, responsible for developing and maintaining microservices that handle internactional shipments. The services are built using Java with Spring Boot and are deployed on AWS using Docker containers. Our main application is \"Frachtbrief online\", which is used by thousands of users daily to create international waybills. I am involved in the full software development lifecycle, from requirements gathering to deployment and monitoring. Additionally, I actively participate in code reviews and contribute to improving our CI/CD pipelines using Jenkins and Github."
       },
       {
         id: 2,
@@ -350,7 +363,7 @@ const database = {
   hobbies: {
     sports: {
       handball: {
-        year: "1998 - Current",
+        year: "1998 - 2020",
         details: "Handball has been part of my life for more than two decades. Because of it, I made friends for life and had the opportunity to play with and against European and Portuguese first-class teams and players.",
         teams: ["Juve Lis, ", "São Bernardo, ", "PPD Zagreb, ", "University of Aveiro"],
         titles: ["Nacional University Champion, ",
@@ -461,9 +474,9 @@ const database = {
   },
 
   contactInfo: {
-    phoneNumbers: ['+351 912451500'],
+    phoneNumbers: ['+351 91 245 150 0', '+41 76 20 30 416'],
     emailAddress: ['jpquintanilha@protonmail.com', 'jpquintanilha6@gmail.com'],
-    address: "Crissier, Lausanne"
+    address: "Murten, Switzerland",
   }
 }
 
