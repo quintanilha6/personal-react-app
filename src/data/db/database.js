@@ -267,7 +267,7 @@ const database = {
         year: "2023-Current",
         position: "Software Developer",
         company: "Swiss Post",
-        details: "At PostIT, I am part of the International Mail and Parcels (IMP) team, responsible for developing and maintaining microservices that handle internactional shipments. The services are built using Java with Spring Boot and are deployed on AWS using Docker containers. Our main application is \"Frachtbrief online\", which is used by thousands of users daily to create international waybills. I am involved in the full software development lifecycle, from requirements gathering to deployment and monitoring. Additionally, I actively participate in code reviews and contribute to improving our CI/CD pipelines using Jenkins and Github."
+        details: "At PostIT, I am part of the International Mail and Parcels (IMP) team, responsible for developing and maintaining services that handle international shipments. The services are built using Java with Spring Boot and are deployed on AWS using Docker containers. Our main application is \"Frachtbrief online\" (https://apps.post.ch/fb/), which is used by thousands of users daily to create international waybills. I am involved in the full software development lifecycle, from requirements gathering to deployment and monitoring. Additionally, I actively contribute to improving our CI/CD pipelines using Jenkins and Github, contribute to a large Test Automation suite in Robot Framework, and very other activities that are not related to development, like recruitment process, Scrum Master deputization, and others."
       },
       {
         id: 2,
