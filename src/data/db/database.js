@@ -3,7 +3,7 @@ import Mock from "../mock";
 const database = {
   information: {
     name: 'João Quintanilha',
-    aboutContent: "I am João Quintanilha, a 32-year-old Software Developer with an MSc in Computer and Telematics Engineering. I could use all those fancy buzz words to describe me, like proactive, problem-solver, dynamic, resourceful, and the list goes on and on because chatgpt is really good at this nowadays... But in the end, I'm a simple guy, with a simple life. So, even though I'm no rocket scientist, you can count on me to work hard to achieve something meaningful. I do value harmony in a team and I am no stranger to help achieve that. Ping me if you'd like to know more about me.",
+    aboutContent: "I’m João Quintanilha, a 32-year-old Software Developer with an MSc in Computer and Telematics Engineering. I could list all the usual buzzwords — proactive, problem-solver, dynamic, resourceful — but let’s be honest, ChatGPT already does that better than anyone. In reality, I’m just a simple guy who enjoys building things that work, solving real problems, and helping a team stay balanced and happy along the way. I may not be a rocket scientist, but you can count on me to work hard and aim for something meaningful. Ping me if you’d like to know more — I’m always up for a good chat.",
     miniAboutContent: "A Software Developer who loves to code, create and learn new technologies. Experienced in Backend, Full-Stack, and Decentralized applications development.",
     age: 32,
     nationality: 'Portuguese',
@@ -17,7 +17,7 @@ const database = {
       twitter: '',
       pinterest: '',
       behance: '',
-      linkedin: 'https://www.linkedin.com/in/jo%C3%A3o-quintanilha-24486a136/',
+      linkedin: 'https://www.linkedin.com/in/quintanilha6/',
       dribbble: '',
       github: 'https://github.com/quintanilha6',
       instagram: '',
@@ -115,11 +115,11 @@ const database = {
     },
     {
       title: "AWS Services",
-      value: 5
+      value: 4
     },
     {
       title: "Stream Processing (Kafka)",
-      value: 5
+      value: 4  
     },
     {
       title: "Databases & ORMs (PostgreSQL, Oracle, MySQL, SQLAlchemy, Hibernate)",
