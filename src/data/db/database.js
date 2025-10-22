@@ -267,29 +267,27 @@ const database = {
         year: "2023-Current",
         position: "Software Developer",
         company: "Swiss Post",
-        details: "At PostIT, I am part of the International Mail and Parcels (IMP) team, responsible for developing and maintaining services that handle international shipments. The services are built using Java with Spring Boot and are deployed on AWS using Docker containers. Our main application is \"Frachtbrief online\" (https://apps.post.ch/fb/), which is used by thousands of users daily to create international waybills. I am involved in the full software development lifecycle, from requirements gathering to deployment and monitoring. Additionally, I actively contribute to improving our CI/CD pipelines using Jenkins and Github, contribute to a large Test Automation suite in Robot Framework, and very other activities that are not related to development, like recruitment process, Scrum Master deputization, and others."
+        details: "At PostIT, I am part of the International Mail and Parcels (IMP) team, developing and maintaining services that handle international shipments. Our core product, Frachtbrief online, is built with Java and Spring Boot, deployed on AWS using Docker containers, and used daily by thousands of customers to create international waybills. I actively participate in all stages of the software development lifecycle — from requirements analysis to deployment and production monitoring. In addition to backend development, I contribute to improving CI/CD pipelines with Jenkins and GitHub, maintain an extensive test automation suite in Robot Framework, and support team processes through activities such as recruitment, onboarding, and Scrum Master deputization."
       },
       {
         id: 2,
         year: "2021-2023",
         position: "Software Developer",
         company: "CERN",
-        details: "At CERN, I am part of the Experimental Physics Department on a team responsible for the control systems of the Compact Muon Solenoid experiment (CMS). It contains a large hierarchy of subdetectors and subsystems, with control systems running over WinCC OA  and Supervisory Control and Data Acquisition (SCADA). On a higher level, there is cmsonline, which holds many web applications used to monitor, execute operations, manage access authorization, etc., regarding all subdetectors. I am responsible for maintaining and developing several applications from cmsonline, mainly using Java with Oracle Application Development Framework (Oracle ADF). Applications are deployed in Weblogic Oracle Servers and managed through the Weblogic console. I have also migrated some components to Spring and actively contribute to the support role, resolving consumer's problems and helping clarify some doubts."
+        details: "Within CERN’s Experimental Physics Department, I worked on the control systems of the Compact Muon Solenoid (CMS) experiment, one of the world’s largest and most complex detectors. I was responsible for maintaining and enhancing several web applications in the cmsonline ecosystem, used for monitoring, operations, and access management across CMS subsystems. My work focused on backend development with Java and Oracle Application Development Framework (ADF), deploying to Oracle WebLogic servers. I also contributed to the gradual migration of legacy components to Spring Boot and provided technical support to users, troubleshooting issues and clarifying operational questions."
       },
       {
         id: 3,
         year: "2020 - 2021",
         position: "Software Developer",
         company: "Bosch Security Systems",
-        details: "Part of the Bosch Smart Home team, I was responsible to integrate different external services and products with Bosch Home devices and services, providing interoperability across a new and improved IoT ecosystem at home. Developed some of the speech-to-action (such as open/close commands to shutters and door locks) currently existing on the market to use with Google Assistant and Alexa. Most functionalities were developed using Spring and Vertx. Made use and contributed to a massive CI/CD using Jenkins. Followed Scrum framework vigurously."
-      },
+        details: "As part of the first international team for Bosch Smart Home outside Germany, I contributed to building interoperability between Bosch Home devices and third-party ecosystems. I developed integrations enabling voice control features — such as opening or closing shutters and door locks — through Google Assistant and Amazon Alexa. Most of the work was done with Spring and Vert.x, within a large-scale CI/CD environment powered by Jenkins. I collaborated closely with cross-functional teams following the Scrum framework to deliver high-quality, production-ready features in an IoT context."},
       {
         id: 4,
         year: "2018 - 2020",
         position: "Backend & Blockchain Developer",
         company: "Ubiwhere",
-        details: "At Ubiwhere I was in charge of help designing and develop decentralized architectures for smart-contract interoperable platforms. Develop dApps using Solidity, Truffle, and Web3 with HTTPS connection for Public Ethereum Clients. Produce RESTful APIs to serve different client applications using Python and Java Frameworks like Falcon and Spring. Environment virtualization of multiple Backend services, middleware, and Databases (Postgres and MySQL) using Docker tools. Data balance definition for hybrid applications, Database-Blockchain."
-      }
+        details: "At Ubiwhere, I helped design and develop decentralized architectures and smart-contract–based platforms for blockchain interoperability. I built dApps using Solidity, Truffle, and Web3, integrating them with public Ethereum networks over HTTPS. I also designed and implemented RESTful APIs in Python (Falcon) and Java (Spring), virtualized backend services and databases (PostgreSQL and MySQL) using Docker, and contributed to defining data synchronization strategies between traditional databases and blockchain ledgers for hybrid applications."}
     ],
     educationExperience: [
       {
