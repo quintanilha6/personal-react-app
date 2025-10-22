@@ -118,6 +118,10 @@ const database = {
       value: 5
     },
     {
+      title: "Stream Processing (Kafka)",
+      value: 5
+    },
+    {
       title: "Databases & ORMs (PostgreSQL, Oracle, MySQL, SQLAlchemy, Hibernate)",
       value: 5
     },
@@ -129,6 +133,7 @@ const database = {
       title: "CI/CD (Jenkins, Gitlab, Github)",
       value: 5
     },
+  
     {
       title: "Nginx & Apache",
       value: 3
